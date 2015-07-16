@@ -29,16 +29,17 @@ public class GobeletTest {
 			boolean isDouble = gobelet.isDouble();
 			if(isDouble){
 				cpt++;
-				try {
-					Field field = gobelet.getClass().getDeclaredField("des");
-					field.setAccessible(true);
-					De[] des = (De[]) field.get(gobelet);
-					if(des[0].getValue()!=des[1].getValue()){
-						fail("Double  avec valeurs "+des[0].getValue()+" et "+des[1].getValue());
-					}
-				} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
-					fail("EXCEPTION : "+e.toString());
-				}
+//				try {
+//					Field field = gobelet.getClass().getDeclaredField("des");
+//					field.setAccessible(true);
+//					De[] des = (De[]) field.get(gobelet);
+//					if(des[0].getValue()!=des[1].getValue()){
+//						fail("Double  avec valeurs "+des[0].getValue()+" et "+des[1].getValue());
+//					}
+//				} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
+//					fail("EXCEPTION : "+e.toString());
+//				}
+				assertEquals(gobelet.getDes()[0].getValue(), gobelet.getDes()[1].getValue());
 			}
 		}
 		if(cpt==0)

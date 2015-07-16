@@ -8,6 +8,22 @@ public class Case {
 	private Case next;
 	
 	
+	/***** CONSTRUCTORS *****/
+	
+
+	/***** METHODS *****/
+	
+	public void passer(Joueur joueur) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void arreter(Joueur joueur) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
 	/***** GETTERS SETTERS *****/
 	
 	public int getNumero() {
@@ -24,16 +40,6 @@ public class Case {
 	
 	public void setNext(Case next) {
 		this.next = next;
-	}
-
-	public void passer(Joueur joueur) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void arreter(Joueur joueur) {
-		// TODO Auto-generated method stub
-		
 	}
 	
 }

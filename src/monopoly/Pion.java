@@ -11,8 +11,8 @@ public class Pion {
 	
 	/***** METHODS *****/
 	
-	public void avancer(int r){
-		for(int i=0 ; i<r-1 ; i++){
+	public void avancer(int resultat){
+		for(int i=0 ; i<resultat-1 ; i++){
 			position = position.getNext();
 			position.passer(joueur);
 		}

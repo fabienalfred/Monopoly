@@ -16,8 +16,8 @@ public class Joueur {
 	/***** METHODS *****/
 	
 	public void jouer(Gobelet gobelet){
-		int r = gobelet.lancer();
-		pion.avancer(r);
+		int resultat = gobelet.lancer();
+		pion.avancer(resultat);
 	}
 	
 	public void crediter(int somme){
