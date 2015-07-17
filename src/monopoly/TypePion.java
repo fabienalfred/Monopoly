@@ -1,11 +1,7 @@
 package monopoly;
 
-public class TypePion {
-	/***** ATTRIBUTES *****/
-
-	/***** CONSTRUCTORS *****/
-
-	/***** METHODS *****/
-
-	/***** GETTERS SETTERS *****/
+public enum TypePion {
+	
+	CHIEN,CHAPEAU,BATEAU,BROUETTE,FER_A_REPASSER,CANON,CHAT,VOITURE;
+	
 }

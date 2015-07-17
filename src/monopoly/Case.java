@@ -5,11 +5,24 @@ public class Case {
 	/***** ATTRIBUTES *****/
 
 	private int numero;
+	private String nom;
 	private Case next;
 	
 	
 	/***** CONSTRUCTORS *****/
 	
+	public Case(){
+		
+	}
+	
+	public Case(String nom){
+		this.nom = nom;
+	}
+	
+	public Case(int num, String nom){
+		this.numero = num;
+		this.nom = nom;
+	}
 
 	/***** METHODS *****/
 	
@@ -32,6 +45,14 @@ public class Case {
 	
 	public void setNumero(int numero) {
 		this.numero = numero;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	public void setNom(String nom) {
+		this.nom = nom;
 	}
 	
 	public Case getNext() {

@@ -7,6 +7,13 @@ public class Pion {
 	private Joueur joueur;
 	private TypePion type;
 	private Case position;
+	private int nbToursPlateau=0 ;
+	
+	
+	/***** CONSTRUCTORS *****/
+	public Pion(TypePion type){
+		this.type = type;
+	}
 	
 	
 	/***** METHODS *****/
@@ -14,9 +21,13 @@ public class Pion {
 	public void avancer(int resultat){
 		for(int i=0 ; i<resultat-1 ; i++){
 			position = position.getNext();
+			if(position.getNumero()==0)
+				nbToursPlateau++;
 			position.passer(joueur);
 		}
 		position = position.getNext();
+		if(position.getNumero()==0)
+			nbToursPlateau++;
 		position.arreter(joueur);
 	}
 	
@@ -29,12 +40,14 @@ public class Pion {
 	public void setJoueur(Joueur joueur) {
 		this.joueur = joueur;
 	}
+	
 	public TypePion getType() {
 		return type;
 	}
 	public void setType(TypePion type) {
 		this.type = type;
 	}
+	
 	public Case getPosition() {
 		return position;
 	}
@@ -42,5 +55,12 @@ public class Pion {
 		this.position = position;
 	}
 	
+	public int getNbToursPlateau() {
+		return nbToursPlateau;
+	}
+	
+	public String getName(){
+		return type.toString();
+	}
 	
 }

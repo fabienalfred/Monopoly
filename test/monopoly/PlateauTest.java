@@ -9,20 +9,31 @@ import org.junit.Test;
 public class PlateauTest {
 
 	@Test
-	public void testPlateau() {
+	public void testCases(){
 		Plateau p = new Plateau();
+		Case caseDepart = p.getCaseDepart();
+		Case caseCourante = caseDepart;
 		for(int i=0 ; i<40 ; i++){
-//			try {
-//				Field field = p.getClass().getDeclaredField("cases");
-//				field.setAccessible(true);
-//				Case[] cases = (Case[]) field.get(p);
-//				if(cases[i].getNumero() != i+1){
-//					fail("Numero de la case "+cases[0].getNumero()+", valeur de i : "+i+1);
-//				}
-//			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
-//				fail("EXCEPTION : "+e.toString());
-//			}
+			caseCourante = caseCourante.getNext();
+		}
+		assertSame(caseDepart, caseCourante);
+	}
+	
+	@Test
+	public void testInitialiserCases() {
+		Plateau p = new Plateau();
+		for(int i=0 ; i<p.getCases().length ; i++){
 			assertEquals(i+1, p.getCases()[i].getNumero());
 		}
+	}
+	
+	@Test
+	public void testLierCases(){
+		Plateau p = new Plateau();
+		for(int i=0 ; i<p.getCases().length-1 ; i++){
+			assertEquals(p.getCases()[i].getNext(), p.getCases()[i+1]);
+		}
+		assertSame(p.getCases()[p.getCases().length-1].getNext(), p.getCases()[0]);
+		
 	}
 }
