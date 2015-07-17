@@ -26,9 +26,13 @@ public class Joueur {
 	/***** METHODS *****/
 	
 	public void jouer(Gobelet gobelet){
+		int ancienSolde = this.solde;
 		int resultat = gobelet.lancer();
 		pion.avancer(resultat);
-		System.out.println(this.nom + " a fait " + resultat + " et avance en " + pion.getPosition().getNom() + " (" + pion.getNbToursPlateau() + "e tour de plateau), solde : "+getSolde());
+		System.out.println(this.nom + " fait " + resultat 
+							+ "\t-> " + pion.getPosition().getNom()
+							+ " (" + pion.getNbToursPlateau() + "e tour de plateau) "
+							+ "\t"+ancienSolde + "€ => " + this.solde + "€");
 	}
 	
 	public void crediter(int somme){
@@ -44,13 +48,17 @@ public class Joueur {
 	}
 	
 	public void remettreEnJeu(){
-		//	p.setProprio(null)
-		//	proprietes.clear
+		for(Propriete p : this.proprietes){
+			p.setOwner(null);
+		}
+		this.proprietes.clear();
 	}
 	
-	public boolean veutAcheter(){
-		//random
-		return true;
+	public boolean veutAcheter(Propriete propriete){
+		if(propriete.getPrixAchat()>this.getSolde())
+			return false;
+		else
+			return (int)(Math.random()*3)+1 > 1;
 	}
 	
 	/***** GETTERS SETTERS *****/

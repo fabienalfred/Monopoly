@@ -7,7 +7,7 @@ public class Pion {
 	private Joueur joueur;
 	private TypePion type;
 	private Case position;
-	private int nbToursPlateau=0 ;
+	private int nbToursPlateau=1 ;
 	
 	
 	/***** CONSTRUCTORS *****/

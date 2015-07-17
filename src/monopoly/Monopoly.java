@@ -57,6 +57,7 @@ public class Monopoly {
 		for(Joueur j : joueurs){
 			j.getPion().setPosition(plateau.getCaseDepart());
 		}
+		System.out.println();
 		for(int i=0 ; i<nbTours ; i++){
 			System.out.println("TOUR "+(i+1));
 			for(Joueur j : joueurs){
