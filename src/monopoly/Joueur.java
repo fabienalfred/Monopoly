@@ -7,10 +7,12 @@ public class Joueur {
 	
 	/***** ATTRIBUTES *****/
 	
+	private Plateau plateau;
 	private String nom;
 	private Pion pion;
 	private int solde=2000;
 	private List<Propriete> proprietes = new ArrayList<>();
+	private int cptDouble=0;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -28,11 +30,27 @@ public class Joueur {
 	public void jouer(Gobelet gobelet){
 		int ancienSolde = this.solde;
 		int resultat = gobelet.lancer();
+		System.out.print(this.nom + " fait ");
+		if(gobelet.isDouble()){
+			this.cptDouble++;
+			if(cptDouble==3){
+				System.out.println("un 3e double ! "+this.getNom()+" va en prison !");
+				this.getPion().setPosition(plateau.getCases()[9]);
+				this.setCptDouble(0);
+				return;
+			}
+			System.out.print("double "+gobelet.getDes()[0].getValue()+" ! ");
+		}
+		else
+			System.out.print(resultat+" ! ");
 		pion.avancer(resultat);
-		System.out.println(this.nom + " fait " + resultat 
-							+ "\t-> " + pion.getPosition().getNom()
+		System.out.println("\t-> " + pion.getPosition().getNom()
 							+ " (" + pion.getNbToursPlateau() + "e tour de plateau) "
 							+ "\t"+ancienSolde + "€ => " + this.solde + "€");
+		if(gobelet.isDouble())
+			this.jouer(gobelet);
+		else
+			this.setCptDouble(0);
 	}
 	
 	public void crediter(int somme){
@@ -62,9 +80,17 @@ public class Joueur {
 	}
 	
 	/***** GETTERS SETTERS *****/
+
+	public Plateau getPlateau() {
+		return this.plateau;
+	}
+	
+	public void setPlateau(Plateau plateau){
+		this.plateau = plateau;
+	}
 	
 	public String getNom() {
-		return nom;
+		return this.nom;
 	}
 	
 	public void setNom(String nom) {
@@ -80,11 +106,23 @@ public class Joueur {
 	}
 	
 	public int getSolde() {
-		return solde;
+		return this.solde;
 	}
 	
 	public void setSolde(int solde) {
 		this.solde = solde;
+	}
+
+	public List<Propriete> getProprietes() {
+		return this.proprietes;
+	}
+
+	public int getCptDouble() {
+		return this.cptDouble;
+	}
+
+	public void setCptDouble(int cptDouble) {
+		this.cptDouble = cptDouble;
 	}
 	
 }

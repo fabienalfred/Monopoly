@@ -12,7 +12,6 @@ public class Case {
 	/***** CONSTRUCTORS *****/
 	
 	public Case(){
-		
 	}
 	
 	public Case(String nom){

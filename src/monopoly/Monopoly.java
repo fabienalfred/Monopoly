@@ -36,6 +36,7 @@ public class Monopoly {
 		j.setPion(p);
 		p.setJoueur(j);
 		this.joueurs.add(j);
+		j.setPlateau(this.plateau);
 		System.out.println("<<< Le joueur "+j.getNom()+" a choisi le pion "+p.getName()+" >>>");
 	}
 	

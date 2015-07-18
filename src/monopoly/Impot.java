@@ -26,4 +26,8 @@ public class Impot extends Case {
 	}
 	
 	/***** GETTERS SETTERS *****/
+	
+	public int getPCT(){
+		return this.PCT;
+	}
 }

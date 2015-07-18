@@ -29,10 +29,13 @@ public class Plateau {
 			case 4 :
 				c = new Impot();
 				break;
+			case 30 :
+				c = new AllezEnPrison();
+				break;
 			case 37 :
 				c = new TaxeDeLuxe();
 				break;
-			case 2 : case 7 : case 10 : case 17 : case 20 : case 22 : case 30 : case 33 : case 36 :
+			case 2 : case 7 : case 10 : case 17 : case 20 : case 22 : case 33 : case 36 :
 				c = new Case(i, "Case "+i);
 				break;
 			default :

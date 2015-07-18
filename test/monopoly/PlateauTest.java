@@ -23,7 +23,7 @@ public class PlateauTest {
 	public void testInitialiserCases() {
 		Plateau p = new Plateau();
 		for(int i=0 ; i<p.getCases().length ; i++){
-			assertEquals(i+1, p.getCases()[i].getNumero());
+			assertEquals(i, p.getCases()[i].getNumero());
 		}
 	}
 	

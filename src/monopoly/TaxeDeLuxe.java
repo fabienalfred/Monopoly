@@ -27,4 +27,8 @@ public class TaxeDeLuxe extends Case {
 	
 	
 	/***** GETTERS SETTERS *****/
+	
+	public int getMalus(){
+		return this.MALUS;
+	}
 }

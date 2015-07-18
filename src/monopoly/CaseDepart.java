@@ -3,10 +3,12 @@ package monopoly;
 public class CaseDepart extends Case{
 
 	/***** ATTRIBUTES *****/
+	
 	private final int BONUS = 200;
 	
-	/***** CONSTRUCTORS *****/
 	
+	/***** CONSTRUCTORS *****/
+
 	public  CaseDepart() {
 		super(0, "Case depart");
 	}
@@ -30,4 +32,8 @@ public class CaseDepart extends Case{
 	
 	
 	/***** GETTERS SETTERS *****/
+	
+	public int getBonus(){
+		return this.BONUS;
+	}
 }
