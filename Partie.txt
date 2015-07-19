@@ -2,243 +2,226 @@
 <<< Le joueur B a choisi le pion CHAT >>>
 
 TOUR 1
-A fait double 6 ! A achete Propriete 12 (120€)	-> Propriete 12 (1e tour de plateau) 	2000€ => 1880€
-A fait 11 ! A achete Propriete 23 (230€)	-> Propriete 23 (1e tour de plateau) 	1880€ => 1650€
+A fait 6 ! A achete Propriete 6 (60€)	-> Propriete 6 (1e tour de plateau) 	2000€ => 1940€
 B fait 7 ! 	-> Case 7 (1e tour de plateau) 	2000€ => 2000€
 
 TOUR 2
-A fait 7 ! 	-> Case 30 (1e tour de plateau) 	1650€ => 1650€
-B fait 5 ! B paye 60€ a A
-	-> Propriete 12 (1e tour de plateau) 	2000€ => 1940€
+A fait 6 ! A achete Propriete 12 (120€)	-> Propriete 12 (1e tour de plateau) 	1940€ => 1820€
+B fait 10 ! 	-> Case 17 (1e tour de plateau) 	2000€ => 2000€
 
 TOUR 3
-A fait 6 ! 	-> Case 36 (1e tour de plateau) 	1710€ => 1710€
-B fait double 6 ! B achete Propriete 24 (240€)	-> Propriete 24 (1e tour de plateau) 	1940€ => 1700€
-B fait 9 ! 	-> Case 33 (1e tour de plateau) 	1700€ => 1700€
+A fait 3 ! A achete Propriete 15 (150€)	-> Propriete 15 (1e tour de plateau) 	1820€ => 1670€
+B fait 11 ! B achete Propriete 28 (280€)	-> Propriete 28 (1e tour de plateau) 	2000€ => 1720€
 
 TOUR 4
-A fait 7 ! A achete Propriete 3 (30€)	-> Propriete 3 (2e tour de plateau) 	1710€ => 1880€
-B fait 4 ! 	-> Taxe de luxe (1e tour de plateau) 	1700€ => 1600€
+A fait 6 ! A refuse d'acheter Propriete 21 (210€)	-> Propriete 21 (1e tour de plateau) 	1670€ => 1670€
+B fait 7 ! B achete Propriete 35 (350€)	-> Propriete 35 (1e tour de plateau) 	1720€ => 1370€
 
 TOUR 5
-A fait 8 ! A achete Propriete 11 (110€)	-> Propriete 11 (2e tour de plateau) 	1880€ => 1770€
-B fait double 6 ! B achete Propriete 9 (90€)	-> Propriete 9 (2e tour de plateau) 	1600€ => 1710€
-B fait 8 ! 	-> Case 17 (2e tour de plateau) 	1710€ => 1710€
+A fait 7 ! A paye 140€ a B	-> Propriete 28 (1e tour de plateau) 	1670€ => 1530€
+B fait double 1 ! 	-> Taxe de luxe (1e tour de plateau) 	1510€ => 1410€
+B fait 11 ! B achete Propriete 8 (80€)	-> Propriete 8 (2e tour de plateau) 	1410€ => 1530€
 
 TOUR 6
-A fait 10 ! A achete Propriete 21 (210€)	-> Propriete 21 (2e tour de plateau) 	1770€ => 1560€
-B fait 5 ! 	-> Case 22 (2e tour de plateau) 	1710€ => 1710€
+A fait double 3 ! A achete Propriete 34 (340€)	-> Propriete 34 (1e tour de plateau) 	1530€ => 1190€
+A fait 4 ! A achete Propriete 38 (380€)	-> Propriete 38 (1e tour de plateau) 	1190€ => 810€
+B fait 7 ! B paye 75€ a A	-> Propriete 15 (2e tour de plateau) 	1530€ => 1455€
 
 TOUR 7
-A fait 6 ! A refuse d'acheter Propriete 27 (270€)	-> Propriete 27 (2e tour de plateau) 	1560€ => 1560€
-B fait 8 ! 	-> Case 30 (2e tour de plateau) 	1710€ => 1710€
+A fait 8 ! 	-> Propriete 6 (2e tour de plateau) 	885€ => 1085€
+B fait 9 ! B achete Propriete 24 (240€)	-> Propriete 24 (2e tour de plateau) 	1455€ => 1215€
 
 TOUR 8
-A fait double 2 ! A achete Propriete 31 (310€)	-> Propriete 31 (2e tour de plateau) 	1560€ => 1250€
-A fait 7 ! A achete Propriete 38 (380€)	-> Propriete 38 (2e tour de plateau) 	1250€ => 870€
-B fait 9 ! B achete Propriete 39 (390€)	-> Propriete 39 (2e tour de plateau) 	1710€ => 1320€
+A fait 9 ! 	-> Propriete 15 (2e tour de plateau) 	1085€ => 1085€
+B fait 5 ! B achete Propriete 29 (290€)	-> Propriete 29 (2e tour de plateau) 	1215€ => 925€
 
 TOUR 9
-A fait 8 ! A achete Propriete 6 (60€)	-> Propriete 6 (3e tour de plateau) 	870€ => 1010€
-B fait 11 ! 	-> Case 10 (3e tour de plateau) 	1320€ => 1520€
+A fait 3 ! A refuse d'acheter Propriete 18 (180€)	-> Propriete 18 (2e tour de plateau) 	1085€ => 1085€
+B fait 4 ! 	-> Case 33 (2e tour de plateau) 	925€ => 925€
 
 TOUR 10
-A fait 11 ! 	-> Case 17 (3e tour de plateau) 	1010€ => 1010€
-B fait 8 ! B achete Propriete 18 (180€)	-> Propriete 18 (3e tour de plateau) 	1520€ => 1340€
+A fait 3 ! A achete Propriete 21 (210€)	-> Propriete 21 (2e tour de plateau) 	1085€ => 875€
+B fait double 1 ! 	-> Propriete 35 (2e tour de plateau) 	925€ => 925€
+B fait 9 ! 	-> Impot (3e tour de plateau) 	925€ => 1013€
 
 TOUR 11
-A fait 11 ! A achete Propriete 28 (280€)	-> Propriete 28 (3e tour de plateau) 	1010€ => 730€
-B fait 8 ! B refuse d'acheter Propriete 26 (260€)	-> Propriete 26 (3e tour de plateau) 	1340€ => 1340€
+A fait 6 ! A achete Propriete 27 (270€)	-> Propriete 27 (2e tour de plateau) 	875€ => 605€
+B fait double 1 ! B paye 30€ a A	-> Propriete 6 (3e tour de plateau) 	1013€ => 983€
+B fait 9 ! B paye 75€ a A	-> Propriete 15 (3e tour de plateau) 	983€ => 908€
 
 TOUR 12
-A fait 9 ! 	-> Taxe de luxe (3e tour de plateau) 	730€ => 630€
-B fait 7 ! 	-> Case 33 (3e tour de plateau) 	1340€ => 1340€
+A fait 5 ! A refuse d'acheter Propriete 32 (320€)	-> Propriete 32 (2e tour de plateau) 	710€ => 710€
+B fait 7 ! 	-> Case 22 (3e tour de plateau) 	908€ => 908€
 
 TOUR 13
-A fait 9 ! 	-> Propriete 6 (4e tour de plateau) 	630€ => 830€
-B fait 7 ! 	-> Case depart (4e tour de plateau) 	1340€ => 1740€
+A fait 8 ! 	-> Case depart (3e tour de plateau) 	710€ => 1110€
+B fait 6 ! 	-> Propriete 28 (3e tour de plateau) 	908€ => 908€
 
 TOUR 14
-A fait 6 ! 	-> Propriete 12 (4e tour de plateau) 	830€ => 830€
-B fait 6 ! B paye 30€ a A
-	-> Propriete 6 (4e tour de plateau) 	1740€ => 1710€
+A fait 4 ! 	-> Impot (3e tour de plateau) 	1110€ => 999€
+B fait 7 ! 	-> Propriete 35 (3e tour de plateau) 	908€ => 908€
 
 TOUR 15
-A fait 8 ! 	-> Case 20 (4e tour de plateau) 	860€ => 860€
-B fait 7 ! B achete Propriete 13 (130€)	-> Propriete 13 (4e tour de plateau) 	1710€ => 1580€
+A fait 6 ! 	-> Case 10 (3e tour de plateau) 	999€ => 999€
+B fait double 1 ! 	-> Taxe de luxe (3e tour de plateau) 	908€ => 808€
+B fait double 5 ! 	-> Case 7 (4e tour de plateau) 	808€ => 1008€
+B fait 9 ! B refuse d'acheter Propriete 16 (160€)	-> Propriete 16 (4e tour de plateau) 	1008€ => 1008€
 
 TOUR 16
-A fait 5 ! A achete Propriete 25 (250€)	-> Propriete 25 (4e tour de plateau) 	860€ => 610€
-B fait 10 ! B paye 115€ a A
-	-> Propriete 23 (4e tour de plateau) 	1580€ => 1465€
+A fait 8 ! A achete Propriete 18 (180€)	-> Propriete 18 (3e tour de plateau) 	999€ => 819€
+B fait 7 ! B achete Propriete 23 (230€)	-> Propriete 23 (4e tour de plateau) 	1008€ => 778€
 
 TOUR 17
-A fait 4 ! A achete Propriete 29 (290€)	-> Propriete 29 (4e tour de plateau) 	725€ => 435€
-B fait 9 ! B refuse d'acheter Propriete 32 (320€)	-> Propriete 32 (4e tour de plateau) 	1465€ => 1465€
+A fait 7 ! A achete Propriete 25 (250€)	-> Propriete 25 (3e tour de plateau) 	819€ => 569€
+B fait 8 ! B refuse d'acheter Propriete 31 (310€)	-> Propriete 31 (4e tour de plateau) 	778€ => 778€
 
 TOUR 18
-A fait 7 ! 	-> Case 36 (4e tour de plateau) 	435€ => 435€
-B fait 6 ! B paye 190€ a A
-	-> Propriete 38 (4e tour de plateau) 	1465€ => 1275€
+A fait double 1 ! 	-> Propriete 27 (3e tour de plateau) 	569€ => 569€
+A fait double 3 ! 	-> Case 33 (3e tour de plateau) 	569€ => 569€
+A fait 8 ! A achete Propriete 1 (10€)	-> Propriete 1 (4e tour de plateau) 	569€ => 759€
+B fait 8 ! B achete Propriete 39 (390€)	-> Propriete 39 (4e tour de plateau) 	778€ => 388€
 
 TOUR 19
-A fait double 6 ! A refuse d'acheter Propriete 8 (80€)	-> Propriete 8 (5e tour de plateau) 	625€ => 825€
-A fait 8 ! A refuse d'acheter Propriete 16 (160€)	-> Propriete 16 (5e tour de plateau) 	825€ => 825€
-B fait 10 ! B achete Propriete 8 (80€)	-> Propriete 8 (5e tour de plateau) 	1275€ => 1395€
+A fait double 6 ! A achete Propriete 13 (130€)	-> Propriete 13 (4e tour de plateau) 	759€ => 629€
+A fait double 4 ! 	-> Propriete 21 (4e tour de plateau) 	629€ => 629€
+A fait 4 ! 	-> Propriete 25 (4e tour de plateau) 	629€ => 629€
+B fait 5 ! 	-> Impot (5e tour de plateau) 	388€ => 530€
 
 TOUR 20
-A fait 8 ! A paye 120€ a B
-	-> Propriete 24 (5e tour de plateau) 	825€ => 705€
-B fait double 1 ! 	-> Case 10 (5e tour de plateau) 	1515€ => 1515€
-B fait 5 ! B refuse d'acheter Propriete 15 (150€)	-> Propriete 15 (5e tour de plateau) 	1515€ => 1515€
+A fait 6 ! A achete Propriete 31 (310€)	-> Propriete 31 (4e tour de plateau) 	629€ => 319€
+B fait 7 ! B refuse d'acheter Propriete 11 (110€)	-> Propriete 11 (5e tour de plateau) 	530€ => 530€
 
 TOUR 21
-A fait 3 ! A achete Propriete 27 (270€)	-> Propriete 27 (5e tour de plateau) 	705€ => 435€
-B fait 3 ! 	-> Propriete 18 (5e tour de plateau) 	1515€ => 1515€
+A fait double 3 ! 	-> Taxe de luxe (4e tour de plateau) 	319€ => 219€
+A fait 6 ! A achete Propriete 3 (30€)	-> Propriete 3 (5e tour de plateau) 	219€ => 389€
+B fait 6 ! 	-> Case 17 (5e tour de plateau) 	530€ => 530€
 
 TOUR 22
-A fait 11 ! 	-> Propriete 38 (5e tour de plateau) 	435€ => 435€
-B fait 5 ! B paye 115€ a A
-	-> Propriete 23 (5e tour de plateau) 	1515€ => 1400€
+A fait 7 ! 	-> Case 10 (5e tour de plateau) 	389€ => 389€
+B fait 8 ! B paye 125€ a A	-> Propriete 25 (5e tour de plateau) 	530€ => 405€
 
 TOUR 23
-A fait 6 ! 	-> Impot (6e tour de plateau) 	550€ => 675€
-B fait 4 ! B paye 135€ a A
-	-> Propriete 27 (5e tour de plateau) 	1400€ => 1265€
+A fait 9 ! A refuse d'acheter Propriete 19 (190€)	-> Propriete 19 (5e tour de plateau) 	514€ => 514€
+B fait 3 ! 	-> Propriete 28 (5e tour de plateau) 	405€ => 405€
 
 TOUR 24
-A fait 3 ! 	-> Case 7 (6e tour de plateau) 	810€ => 810€
-B fait double 4 ! B achete Propriete 35 (350€)	-> Propriete 35 (5e tour de plateau) 	1265€ => 915€
-B fait double 1 ! 	-> Taxe de luxe (5e tour de plateau) 	915€ => 815€
-B fait 6 ! B paye 15€ a A
-	-> Propriete 3 (6e tour de plateau) 	815€ => 1000€
+A fait 8 ! 	-> Propriete 27 (5e tour de plateau) 	514€ => 514€
+B fait 9 ! 	-> Taxe de luxe (5e tour de plateau) 	405€ => 305€
 
 TOUR 25
-A fait 9 ! A achete Propriete 16 (160€)	-> Propriete 16 (6e tour de plateau) 	825€ => 665€
-B fait 5 ! 	-> Propriete 8 (6e tour de plateau) 	1000€ => 1000€
+A fait 11 ! 	-> Propriete 38 (5e tour de plateau) 	514€ => 514€
+B fait 7 ! 	-> Impot (6e tour de plateau) 	305€ => 455€
 
 TOUR 26
-A fait 7 ! 	-> Propriete 23 (6e tour de plateau) 	665€ => 665€
-B fait 7 ! B achete Propriete 15 (150€)	-> Propriete 15 (6e tour de plateau) 	1000€ => 850€
+A fait 6 ! 	-> Impot (6e tour de plateau) 	514€ => 643€
+B fait double 3 ! 	-> Case 10 (6e tour de plateau) 	455€ => 455€
+B fait 6 ! B achete Propriete 16 (160€)	-> Propriete 16 (6e tour de plateau) 	455€ => 295€
 
 TOUR 27
-A fait 3 ! A refuse d'acheter Propriete 26 (260€)	-> Propriete 26 (6e tour de plateau) 	665€ => 665€
-B fait double 4 ! B paye 115€ a A
-	-> Propriete 23 (6e tour de plateau) 	850€ => 735€
-B fait double 5 ! 	-> Case 33 (6e tour de plateau) 	735€ => 735€
-B fait 7 ! 	-> Case depart (7e tour de plateau) 	735€ => 1135€
+A fait double 6 ! A paye 80€ a B	-> Propriete 16 (6e tour de plateau) 	643€ => 563€
+A fait double 2 ! 	-> Case 20 (6e tour de plateau) 	563€ => 563€
+A fait 8 ! A paye 140€ a B	-> Propriete 28 (6e tour de plateau) 	563€ => 423€
+B fait 8 ! 	-> Propriete 24 (6e tour de plateau) 	515€ => 515€
 
 TOUR 28
-A fait 8 ! A achete Propriete 34 (340€)	-> Propriete 34 (6e tour de plateau) 	780€ => 440€
-B fait 8 ! 	-> Propriete 8 (7e tour de plateau) 	1135€ => 1135€
+A fait double 4 ! 	-> Case 36 (6e tour de plateau) 	423€ => 423€
+A fait double 1 ! 	-> Propriete 38 (6e tour de plateau) 	423€ => 423€
+A fait 9 ! 	-> Case 7 (7e tour de plateau) 	423€ => 623€
+B fait 9 ! 	-> Case 33 (6e tour de plateau) 	515€ => 515€
 
 TOUR 29
-A fait 4 ! 	-> Propriete 38 (6e tour de plateau) 	440€ => 440€
-B fait 9 ! 	-> Case 17 (7e tour de plateau) 	1135€ => 1135€
+A fait 8 ! 	-> Propriete 15 (7e tour de plateau) 	623€ => 623€
+B fait 5 ! B paye 190€ a A	-> Propriete 38 (6e tour de plateau) 	515€ => 325€
 
 TOUR 30
-A fait double 1 ! 	-> Case depart (7e tour de plateau) 	440€ => 840€
-A fait 10 ! 	-> Case 10 (7e tour de plateau) 	840€ => 840€
-B fait 7 ! 	-> Propriete 24 (7e tour de plateau) 	1135€ => 1135€
+A fait 10 ! 	-> Propriete 25 (7e tour de plateau) 	813€ => 813€
+B fait 7 ! B achete Propriete 5 (50€)	-> Propriete 5 (7e tour de plateau) 	325€ => 475€
 
 TOUR 31
-A fait 8 ! A paye 90€ a B
-	-> Propriete 18 (7e tour de plateau) 	840€ => 750€
-B fait double 6 ! 	-> Case 36 (7e tour de plateau) 	1225€ => 1225€
-B fait 4 ! 	-> Case depart (8e tour de plateau) 	1225€ => 1625€
+A fait 6 ! 	-> Propriete 31 (7e tour de plateau) 	813€ => 813€
+B fait 9 ! B refuse d'acheter Propriete 14 (140€)	-> Propriete 14 (7e tour de plateau) 	475€ => 475€
 
 TOUR 32
-A fait 9 ! 	-> Propriete 27 (7e tour de plateau) 	750€ => 750€
-B fait 5 ! B achete Propriete 5 (50€)	-> Propriete 5 (8e tour de plateau) 	1625€ => 1575€
+A fait 5 ! 	-> Case 36 (7e tour de plateau) 	813€ => 813€
+B fait 3 ! 	-> Case 17 (7e tour de plateau) 	475€ => 475€
 
 TOUR 33
-A fait 7 ! 	-> Propriete 34 (7e tour de plateau) 	750€ => 750€
-B fait 8 ! 	-> Propriete 13 (8e tour de plateau) 	1575€ => 1575€
+A fait 6 ! 	-> Case 2 (8e tour de plateau) 	813€ => 1013€
+B fait 11 ! 	-> Propriete 28 (7e tour de plateau) 	475€ => 475€
 
 TOUR 34
-A fait 6 ! 	-> Case depart (8e tour de plateau) 	750€ => 1150€
-B fait 8 ! B paye 105€ a A
-	-> Propriete 21 (8e tour de plateau) 	1575€ => 1470€
+A fait 7 ! A refuse d'acheter Propriete 9 (90€)	-> Propriete 9 (8e tour de plateau) 	1013€ => 1013€
+B fait double 6 ! 	-> Case depart (8e tour de plateau) 	475€ => 875€
+B fait 11 ! B refuse d'acheter Propriete 11 (110€)	-> Propriete 11 (8e tour de plateau) 	875€ => 875€
 
 TOUR 35
-A fait 3 ! 	-> Propriete 3 (8e tour de plateau) 	1255€ => 1255€
-B fait 5 ! B achete Propriete 26 (260€)	-> Propriete 26 (8e tour de plateau) 	1470€ => 1210€
+A fait 8 ! 	-> Case 17 (8e tour de plateau) 	1013€ => 1013€
+B fait 5 ! 	-> Propriete 16 (8e tour de plateau) 	875€ => 875€
 
 TOUR 36
-A fait 4 ! 	-> Case 7 (8e tour de plateau) 	1255€ => 1255€
-B fait double 5 ! 	-> Case 36 (8e tour de plateau) 	1210€ => 1210€
-B fait 3 ! 	-> Propriete 39 (8e tour de plateau) 	1210€ => 1210€
+A fait 4 ! 	-> Propriete 21 (8e tour de plateau) 	1013€ => 1013€
+B fait 5 ! B paye 105€ a A	-> Propriete 21 (8e tour de plateau) 	875€ => 770€
 
 TOUR 37
-A fait 10 ! 	-> Case 17 (8e tour de plateau) 	1255€ => 1255€
-B fait 8 ! 	-> Case 7 (9e tour de plateau) 	1210€ => 1410€
+A fait 9 ! A va en prison !
+	-> Case 10 (8e tour de plateau) 	1118€ => 1118€
+B fait 8 ! 	-> Propriete 29 (8e tour de plateau) 	770€ => 770€
 
 TOUR 38
-A fait 3 ! 	-> Case 20 (8e tour de plateau) 	1255€ => 1255€
-B fait 7 ! B refuse d'acheter Propriete 14 (140€)	-> Propriete 14 (9e tour de plateau) 	1410€ => 1410€
+A fait 11 ! 	-> Propriete 21 (8e tour de plateau) 	1118€ => 1118€
+B fait 6 ! 	-> Propriete 35 (8e tour de plateau) 	770€ => 770€
 
 TOUR 39
-A fait 7 ! 	-> Propriete 27 (8e tour de plateau) 	1255€ => 1255€
-B fait 7 ! B paye 105€ a A
-	-> Propriete 21 (9e tour de plateau) 	1410€ => 1305€
+A fait 7 ! A paye 140€ a B	-> Propriete 28 (8e tour de plateau) 	1118€ => 978€
+B fait 8 ! B paye 15€ a A	-> Propriete 3 (9e tour de plateau) 	910€ => 1095€
 
 TOUR 40
-A fait 8 ! A paye 175€ a B
-	-> Propriete 35 (8e tour de plateau) 	1360€ => 1185€
-B fait 7 ! B paye 140€ a A
-	-> Propriete 28 (9e tour de plateau) 	1480€ => 1340€
+A fait 7 ! A paye 175€ a B	-> Propriete 35 (8e tour de plateau) 	993€ => 818€
+B fait double 6 ! B paye 75€ a A	-> Propriete 15 (9e tour de plateau) 	1270€ => 1195€
+B fait 8 ! 	-> Propriete 23 (9e tour de plateau) 	1195€ => 1195€
 
 TOUR 41
-A fait 6 ! A refuse d'acheter Propriete 1 (10€)	-> Propriete 1 (9e tour de plateau) 	1325€ => 1525€
-B fait 8 ! 	-> Case 36 (9e tour de plateau) 	1340€ => 1340€
+A fait double 1 ! 	-> Taxe de luxe (8e tour de plateau) 	893€ => 793€
+A fait 7 ! 	-> Impot (9e tour de plateau) 	793€ => 894€
+B fait 6 ! 	-> Propriete 29 (9e tour de plateau) 	1195€ => 1195€
 
 TOUR 42
-A fait 8 ! A paye 45€ a B
-	-> Propriete 9 (9e tour de plateau) 	1525€ => 1480€
-B fait 6 ! 	-> Case 2 (10e tour de plateau) 	1385€ => 1585€
+A fait double 2 ! A paye 40€ a B	-> Propriete 8 (9e tour de plateau) 	894€ => 854€
+A fait 7 ! 	-> Propriete 15 (9e tour de plateau) 	854€ => 854€
+B fait 7 ! 	-> Case 36 (9e tour de plateau) 	1235€ => 1235€
 
 TOUR 43
-A fait 3 ! 	-> Propriete 12 (9e tour de plateau) 	1480€ => 1480€
-B fait 11 ! 	-> Propriete 13 (10e tour de plateau) 	1585€ => 1585€
+A fait 9 ! A paye 120€ a B	-> Propriete 24 (9e tour de plateau) 	854€ => 734€
+B fait 7 ! B paye 15€ a A	-> Propriete 3 (10e tour de plateau) 	1355€ => 1540€
 
 TOUR 44
-A fait double 1 ! A achete Propriete 14 (140€)	-> Propriete 14 (9e tour de plateau) 	1480€ => 1340€
-A fait 7 ! 	-> Propriete 21 (9e tour de plateau) 	1340€ => 1340€
-B fait 5 ! 	-> Propriete 18 (10e tour de plateau) 	1585€ => 1585€
+A fait double 6 ! 	-> Case 36 (9e tour de plateau) 	749€ => 749€
+A fait 11 ! 	-> Case 7 (10e tour de plateau) 	749€ => 949€
+B fait 9 ! B paye 60€ a A	-> Propriete 12 (10e tour de plateau) 	1540€ => 1480€
 
 TOUR 45
-A fait 7 ! 	-> Propriete 28 (9e tour de plateau) 	1340€ => 1340€
-B fait 9 ! B paye 135€ a A
-	-> Propriete 27 (10e tour de plateau) 	1585€ => 1450€
+A fait 9 ! A paye 80€ a B	-> Propriete 16 (10e tour de plateau) 	1009€ => 929€
+B fait 10 ! 	-> Case 22 (10e tour de plateau) 	1560€ => 1560€
 
 TOUR 46
-A fait 9 ! 	-> Taxe de luxe (9e tour de plateau) 	1475€ => 1375€
-B fait 7 ! B paye 170€ a A
-	-> Propriete 34 (10e tour de plateau) 	1450€ => 1280€
+A fait 7 ! A paye 115€ a B	-> Propriete 23 (10e tour de plateau) 	929€ => 814€
+B fait 7 ! 	-> Propriete 29 (10e tour de plateau) 	1675€ => 1675€
 
 TOUR 47
-A fait 11 ! A paye 40€ a B
-	-> Propriete 8 (10e tour de plateau) 	1545€ => 1705€
-B fait 7 ! B achete Propriete 1 (10€)	-> Propriete 1 (11e tour de plateau) 	1320€ => 1510€
+A fait 5 ! A paye 140€ a B	-> Propriete 28 (10e tour de plateau) 	814€ => 674€
+B fait 7 ! 	-> Case 36 (10e tour de plateau) 	1815€ => 1815€
 
 TOUR 48
-A fait double 2 ! 	-> Propriete 12 (10e tour de plateau) 	1705€ => 1705€
-A fait 11 ! 	-> Propriete 23 (10e tour de plateau) 	1705€ => 1705€
-B fait double 1 ! B paye 15€ a A
-	-> Propriete 3 (11e tour de plateau) 	1510€ => 1495€
-B fait 5 ! 	-> Propriete 8 (11e tour de plateau) 	1495€ => 1495€
+A fait double 6 ! 	-> Case depart (11e tour de plateau) 	674€ => 1074€
+A fait 5 ! A paye 25€ a B	-> Propriete 5 (11e tour de plateau) 	1074€ => 1049€
+B fait 5 ! B paye 5€ a A	-> Propriete 1 (11e tour de plateau) 	1840€ => 2035€
 
 TOUR 49
-A fait double 4 ! 	-> Propriete 31 (10e tour de plateau) 	1720€ => 1720€
-A fait double 4 ! A paye 195€ a B
-	-> Propriete 39 (10e tour de plateau) 	1720€ => 1525€
-A fait 5 ! 	-> Impot (11e tour de plateau) 	1525€ => 1553€
-B fait 6 ! B paye 70€ a A
-	-> Propriete 14 (11e tour de plateau) 	1690€ => 1620€
+A fait 11 ! A paye 80€ a B	-> Propriete 16 (11e tour de plateau) 	1054€ => 974€
+B fait 5 ! B paye 30€ a A	-> Propriete 6 (11e tour de plateau) 	2115€ => 2085€
 
 TOUR 50
-A fait 5 ! A paye 45€ a B
-	-> Propriete 9 (11e tour de plateau) 	1623€ => 1578€
-B fait 9 ! B paye 115€ a A
-	-> Propriete 23 (11e tour de plateau) 	1665€ => 1550€
+A fait 5 ! 	-> Propriete 21 (11e tour de plateau) 	1004€ => 1004€
+B fait double 5 ! 	-> Propriete 16 (11e tour de plateau) 	2085€ => 2085€
+B fait 7 ! 	-> Propriete 23 (11e tour de plateau) 	2085€ => 2085€
 
