@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ProprieteTest {
 
 	@Test
-	public void testArreter() {
+	public void testArreter() throws SoldeNegatifException {
 		Joueur j1 = new Joueur();
 		Joueur j2 = new Joueur();
 		int soldeInit = 2000;

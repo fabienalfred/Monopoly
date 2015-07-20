@@ -30,7 +30,7 @@ public class Case {
 		
 	}
 
-	public void arreter(Joueur joueur) {
+	public void arreter(Joueur joueur) throws SoldeNegatifException {
 		// TODO Auto-generated method stub
 		
 	}

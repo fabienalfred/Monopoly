@@ -18,33 +18,26 @@ public class Propriete extends Case {
 	}
 	
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws SoldeNegatifException *****/
 
 	@Override
-	public void arreter(Joueur joueur) {
+	public void arreter(Joueur joueur) throws SoldeNegatifException {
 		if(this.owner==null){				// pas de proprietaire
 			if(joueur.veutAcheter(this)){
 				joueur.debiter(prixAchat);
 				joueur.addPropriete(this);
 				this.setOwner(joueur);
-				System.out.print(joueur.getNom()+" achete "+this.getNom()+" ("+this.getPrixAchat()+"€)");
+				System.out.print(joueur.getNom()+" achete "+this.getNom()+" ("+this.getPrixAchat()+")");
 			}
 			else
 				System.out.print(joueur.getNom()+" refuse d'acheter "+this.getNom()+" ("+this.getPrixAchat()+"€)");
 		}
 		else if(this.owner!=joueur){		// proprietaire different du joueur
-			if(joueur.getSolde()>=loyer){	// le joueur peut payer le loyer
-				joueur.debiter(loyer);
-				this.owner.crediter(loyer);
-				System.out.print(joueur.getNom()+" paye "+this.getLoyer()+"€ a "+this.owner.getNom());
-			}
-			else{							// le joueur ne peut pas payer le loyer
-				joueur.remettreEnJeu();
-				System.out.println(joueur.getNom()+" n'a pas assez d'argent pour payer "
-									+this.getLoyer()+"€ a "+this.owner.getNom()
-									+ " => FAILLITE !!!");
-//				System.exit(0);
-			}
+			joueur.debiter(loyer);
+			this.owner.crediter(loyer);
+			System.out.print(joueur.getNom()+" paye "+this.getLoyer()+"€ a "+this.owner.getNom());
+			
 		}
 	}
 	

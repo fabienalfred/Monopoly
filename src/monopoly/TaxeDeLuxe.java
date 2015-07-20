@@ -18,10 +18,11 @@ public class TaxeDeLuxe extends Case {
 	}
 	
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws SoldeNegatifException *****/
 
 	@Override
-	public void arreter(Joueur joueur){
+	public void arreter(Joueur joueur) throws SoldeNegatifException{
 		joueur.debiter(MALUS);
 	}
 	

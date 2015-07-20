@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ImpotTest {
 
 	@Test
-	public void testArreter() {
+	public void testArreter() throws SoldeNegatifException {
 		Joueur j = new Joueur();
 		int soldeInit = 2000;
 		j.setSolde(soldeInit);

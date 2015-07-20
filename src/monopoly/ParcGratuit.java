@@ -4,7 +4,7 @@ public class ParcGratuit extends Case{
 
 	/***** ATTRIBUTES *****/
 
-	private int gagnote;
+	private int cagnotte;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -18,20 +18,20 @@ public class ParcGratuit extends Case{
 
 	@Override
 	public void arreter(Joueur joueur) {
-		joueur.crediter(gagnote);
-		this.setGagnote(0);
+		joueur.crediter(cagnotte);
+		this.setCagnotte(0);
 	}
 
 	
 	/***** GETTERS SETTERS *****/
 
-	public int getGagnote() {
-		return this.gagnote;
+	public int getCagnotte() {
+		return this.cagnotte;
 	}
 
 
-	public void setGagnote(int gagnote) {
-		this.gagnote = gagnote;
+	public void setCagnotte(int cagnotte) {
+		this.cagnotte = cagnotte;
 	}
 	
 }

@@ -7,7 +7,7 @@ import org.junit.Test;
 public class AllezEnPrisonTest {
 
 	@Test
-	public void testArreter() {
+	public void testArreter() throws SoldeNegatifException {
 		Joueur j =new Joueur();
 		Pion pion = new Pion(null);
 		j.setPion(pion);

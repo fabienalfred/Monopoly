@@ -18,10 +18,11 @@ public class Impot extends Case {
 	}
 	
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws SoldeNegatifException *****/
 
 	@Override
-	public void arreter(Joueur joueur){
+	public void arreter(Joueur joueur) throws SoldeNegatifException{
 		joueur.debiter(joueur.getSolde()*PCT/100);
 	}
 	

@@ -13,11 +13,11 @@ public class Banque {
 	/***** METHODS *****/
 
 	public void crediter(int somme){
-		this.setSolde(this.getSolde()+somme);
+		this.solde += somme;
 	}
 	
 	public void debiter(int somme){
-		this.setSolde(this.getSolde()-somme);
+		this.solde -= somme;
 	}
 	
 	

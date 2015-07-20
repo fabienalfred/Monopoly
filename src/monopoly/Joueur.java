@@ -10,7 +10,7 @@ public class Joueur {
 	private Plateau plateau;
 	private String nom;
 	private Pion pion;
-	private int solde=2000;
+	private int solde=20;
 	private List<Propriete> proprietes = new ArrayList<>();
 	private int cptDouble=0;
 	
@@ -25,9 +25,10 @@ public class Joueur {
 		this.nom = nom;
 	}
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws SoldeNegatifException *****/
 	
-	public void jouer(Gobelet gobelet){
+	public void jouer(Gobelet gobelet) throws SoldeNegatifException{
 		int ancienSolde = this.solde;
 		int resultat = gobelet.lancer();
 		System.out.print(this.nom + " fait ");
@@ -54,11 +55,13 @@ public class Joueur {
 	}
 	
 	public void crediter(int somme){
-		this.setSolde(this.getSolde()+somme);
+		this.solde += somme;
 	}
 	
-	public void debiter(int somme){
-		this.setSolde(this.getSolde()-somme);
+	public void debiter(int somme) throws SoldeNegatifException{
+		this.solde -= somme;
+		if(this.solde<0)
+			throw new SoldeNegatifException();
 	}
 	
 	public void addPropriete(Propriete propriete){

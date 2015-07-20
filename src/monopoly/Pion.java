@@ -16,9 +16,10 @@ public class Pion {
 	}
 	
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws SoldeNegatifException *****/
 	
-	public void avancer(int resultat){
+	public void avancer(int resultat) throws SoldeNegatifException{
 		for(int i=0 ; i<resultat-1 ; i++){
 			position = position.getNext();
 			if(position.getNumero()==0)

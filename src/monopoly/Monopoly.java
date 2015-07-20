@@ -1,6 +1,7 @@
 package monopoly;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
@@ -48,7 +49,12 @@ public class Monopoly {
 		for(int i=0 ; i<NB_TOURS ; i++){
 			System.out.println("TOUR "+(i+1));
 			for(Joueur j : joueurs){
-				j.jouer(gobelet);
+				try {
+					j.jouer(gobelet);
+				} catch (SoldeNegatifException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 			System.out.println();
 		}
@@ -61,8 +67,21 @@ public class Monopoly {
 		System.out.println();
 		for(int i=0 ; i<nbTours ; i++){
 			System.out.println("TOUR "+(i+1));
-			for(Joueur j : joueurs){
-				j.jouer(gobelet);
+			Iterator<Joueur> it = joueurs.iterator();
+			while(it.hasNext()){
+				Joueur j = it.next();
+				try {
+					j.jouer(gobelet);
+				} catch (SoldeNegatifException e) {
+//					e.printStackTrace();
+					it.remove();
+					j.remettreEnJeu();
+					System.out.println(j.getNom()+" a fait FAILLITE !");
+				}
+				if(joueurs.size()==1){
+					System.out.println(joueurs.get(0).getNom()+" REMPORTE LA PARTIE !!!");
+					return;
+				}
 			}
 			System.out.println();
 		}

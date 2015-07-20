@@ -16,7 +16,7 @@ public class JoueurTest {
 	}
 
 	@Test
-	public void testDebiter() {
+	public void testDebiter() throws SoldeNegatifException {
 		Joueur j = new Joueur();
 		j.setSolde(2000);
 		int ancienSolde = j.getSolde();
