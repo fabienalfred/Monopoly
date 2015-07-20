@@ -1,19 +1,19 @@
 package monopoly;
 
-public class TaxeLuxe extends Case {
+public class TaxeDeLuxe extends Case {
 
 	/***** ATTRIBUTES *****/
 
-	private final int MALUS = 100;
+	private final int taxe = 100;
 	
 	
 	/***** CONSTRUCTORS *****/
 
-	public TaxeLuxe(){
+	public TaxeDeLuxe(){
 		super("Taxe de luxe");
 	}
 	
-	public TaxeLuxe(int num, String nom){
+	public TaxeDeLuxe(int num, String nom){
 		super(nom);
 	}
 	
@@ -23,13 +23,13 @@ public class TaxeLuxe extends Case {
 
 	@Override
 	public void arreter(Joueur joueur) throws SoldeNegatifException{
-		joueur.debiter(MALUS);
+		joueur.debiter(taxe);
 	}
 	
 	
 	/***** GETTERS SETTERS *****/
 	
 	public int getMalus(){
-		return this.MALUS;
+		return this.taxe;
 	}
 }

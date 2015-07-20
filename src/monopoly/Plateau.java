@@ -32,35 +32,11 @@ public class Plateau {
 	 * @throws ClassNotFoundException 
 	 * @throws IllegalAccessException 
 	 * @throws InstantiationException *****/
-
-	public void initialiserCases(){
-		for(int i=0 ; i<cases.length ; i++){
-			Case c = null;
-			switch(i){
-			case 0 :
-				c = new Depart();
-				break;
-			case 4 :
-				c = new Impot();
-				break;
-			case 30 :
-				c = new Prison();
-				break;
-			case 37 :
-				c = new TaxeLuxe();
-				break;
-			case 2 : case 7 : case 10 : case 17 : case 20 : case 22 : case 33 : case 36 :
-				c = new Case("Case "+i);
-				break;
-			default :
-				c = new Propriete("Propriete "+i);
-				break;
-			}
-			this.cases[i] = c;
-		}
-	}
 	
-	public void initialiserCases(String filename) throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException{
+	public void initialiserCases(String filename) throws IOException,
+														InstantiationException,
+														IllegalAccessException,
+														ClassNotFoundException{
 		String filein = filename;
 		String s = null;
 		try (FileReader filereader = new FileReader(filein);
@@ -75,12 +51,40 @@ public class Plateau {
 					((Propriete) c).setPrixAchat(Integer.parseInt(champs[5]));
 					((Propriete) c).setLoyer(Integer.parseInt(champs[6]));
 				}
-				if(c instanceof Impot || c instanceof TaxeLuxe || c instanceof Depart){
-					
-				}
 				cases[Integer.parseInt(champs[1])] = c;
 			}
+			((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
 		}
+	}
+	
+	public void initialiserCases(){
+		for(int i=0 ; i<cases.length ; i++){
+			Case c = null;
+			switch(i){
+			case 0 :
+				c = new CaseDepart();
+				break;
+			case 4 :
+				c = new Impot();
+				break;
+			case 30 :
+				c = new AllezEnPrison();
+				break;
+			case 37 :
+				c = new TaxeDeLuxe();
+				break;
+			case 2:case 7:case 10:case 17:case 20:case 22:case 33:case 36:
+				c = new Case("Case "+i);
+				break;
+			default :
+				c = new Propriete("Propriete "+i);
+				((Propriete) c).setPrixAchat(200*i);
+				((Propriete) c).setLoyer(20*i);
+				break;
+			}
+			this.cases[i] = c;
+		}
+		((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
 	}
 	
 	public void lierCases(){

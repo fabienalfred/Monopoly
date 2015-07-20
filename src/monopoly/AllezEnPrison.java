@@ -1,12 +1,15 @@
 package monopoly;
 
-public class Prison extends Case {
+public class AllezEnPrison extends Case {
 
 	/***** ATTRIBUTES *****/
 
+	private Case prison;
+	
+	
 	/***** CONSTRUCTORS *****/
 
-	public Prison(){
+	public AllezEnPrison(){
 		super("Allez en Prison");
 	}
 	
@@ -21,4 +24,9 @@ public class Prison extends Case {
 	
 	
 	/***** GETTERS SETTERS *****/
+	
+	public void setPrison(Case prison){
+		this.prison = prison;
+	}
+	
 }

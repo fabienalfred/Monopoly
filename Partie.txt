@@ -2,53 +2,229 @@
 <<< Le joueur B a choisi le pion CHAT >>>
 
 TOUR 1
-A fait 11 ! A refuse d'acheter Bd de la Villette (140€)	-> Bd de la Villette (1e tour de plateau) 	20€ => 20€
+A fait 7 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
 B fait 7 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
 
 TOUR 2
-A fait 8 ! A refuse d'acheter Place Pigalle (200€)	-> Place Pigalle (1e tour de plateau) 	20€ => 20€
-B fait 4 ! B refuse d'acheter Bd de la Villette (140€)	-> Bd de la Villette (1e tour de plateau) 	20€ => 20€
+A fait 7 ! A refuse d'acheter Rue de Paradis (160€)	-> Rue de Paradis (1e tour de plateau) 	20€ => 20€
+B fait 6 ! B refuse d'acheter Avenue de Neuilly (140€)	-> Avenue de Neuilly (1e tour de plateau) 	20€ => 20€
 
 TOUR 3
-A fait 3 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
-B fait 3 ! B refuse d'acheter Rue de Paradis (160€)	-> Rue de Paradis (1e tour de plateau) 	20€ => 20€
+A fait 7 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	20€ => 20€
+B fait 5 ! B refuse d'acheter Bd Saint-Michel (180€)	-> Bd Saint-Michel (1e tour de plateau) 	20€ => 20€
 
 TOUR 4
-A fait 8 ! A va en prison !
-	-> En prison - Simple Visite (1e tour de plateau) 	20€ => 20€
-B fait 9 ! B refuse d'acheter Bd Malesherbes (220€)	-> Bd Malesherbes (1e tour de plateau) 	20€ => 20€
+A fait 7 ! A refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	20€ => 20€
+B fait 9 ! B refuse d'acheter Place de la Bourse (260€)	-> Place de la Bourse (1e tour de plateau) 	20€ => 20€
 
 TOUR 5
-A fait 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	20€ => 20€
-B fait 6 ! B refuse d'acheter Rue Lafayette (280€)	-> Rue Lafayette (1e tour de plateau) 	20€ => 20€
+A fait 4 ! A refuse d'acheter Avenue Foch (300€)	-> Avenue Foch (1e tour de plateau) 	20€ => 20€
+B fait 9 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
 
 TOUR 6
-A fait 8 ! A refuse d'acheter Bd Malesherbes (220€)	-> Bd Malesherbes (1e tour de plateau) 	20€ => 20€
-B fait 7 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
+A fait 11 ! A refuse d'acheter Rue Lecourbe (60€)	-> Rue Lecourbe (1e tour de plateau) 	20€ => 220€
+B fait 7 ! B refuse d'acheter Rue Lecourbe (60€)	-> Rue Lecourbe (1e tour de plateau) 	20€ => 220€
 
 TOUR 7
-A fait 9 ! A refuse d'acheter Avenue Foch (300€)	-> Avenue Foch (1e tour de plateau) 	20€ => 20€
-B fait 9 ! B achete Gare Montparnasse (200)	-> Gare Montparnasse (1e tour de plateau) 	20€ => 20€
+A fait 9 ! A achete Compagnie d'Electricite (150)	-> Compagnie d'Electricite (1e tour de plateau) 	220€ => 70€
+B fait 7 ! 	-> En prison - Simple Visite (1e tour de plateau) 	220€ => 220€
 
 TOUR 8
-A fait 5 ! A refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	20€ => 20€
-B fait 9 ! B refuse d'acheter Rue de Paradis (160€)	-> Rue de Paradis (1e tour de plateau) 	20€ => 20€
+A fait 6 ! A refuse d'acheter Bd Saint-Michel (180€)	-> Bd Saint-Michel (1e tour de plateau) 	70€ => 70€
+B fait double 2 ! B achete Rue de Paradis (160)	-> Rue de Paradis (1e tour de plateau) 	220€ => 60€
+B fait 10 ! B refuse d'acheter Avenue Henri-Martin (240€)	-> Avenue Henri-Martin (1e tour de plateau) 	60€ => 60€
 
 TOUR 9
-A fait 8 ! A paye 20€ a B	-> Gare Montparnasse (1e tour de plateau) 	20€ => 200€
-B fait 10 ! B refuse d'acheter Avenue Henri-Martin (240€)	-> Avenue Henri-Martin (1e tour de plateau) 	40€ => 40€
+A fait double 2 ! 	-> Chance (1e tour de plateau) 	70€ => 70€
+A fait 9 ! A refuse d'acheter Avenue de Breteuil (300€)	-> Avenue de Breteuil (1e tour de plateau) 	70€ => 70€
+B fait double 2 ! B refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	60€ => 60€
+B fait 7 ! B refuse d'acheter Gare Saint-Lazare (200€)	-> Gare Saint-Lazare (1e tour de plateau) 	60€ => 60€
 
 TOUR 10
-A fait double 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	200€ => 200€
-A fait 6 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	200€ => 200€
-B fait 5 ! B refuse d'acheter Rue Lafayette (280€)	-> Rue Lafayette (1e tour de plateau) 	40€ => 40€
+A fait 6 ! A refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	70€ => 70€
+B fait 9 ! 	-> Impot sur le revenu (1e tour de plateau) 	60€ => 234€
 
 TOUR 11
-A fait 9 ! A va en prison !
-	-> En prison - Simple Visite (1e tour de plateau) 	200€ => 200€
-B fait 5 ! B refuse d'acheter Bd des Capucines (320€)	-> Bd des Capucines (1e tour de plateau) 	40€ => 40€
+A fait 7 ! 	-> Impot sur le revenu (1e tour de plateau) 	70€ => 243€
+B fait 5 ! B refuse d'acheter Avenue de la Republique (120€)	-> Avenue de la Republique (1e tour de plateau) 	234€ => 234€
 
 TOUR 12
-A fait 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	200€ => 200€
-B fait double 2 ! B a fait FAILLITE !
-A REMPORTE LA PARTIE !!!
+A fait 4 ! A achete Rue de Courcelles (100)	-> Rue de Courcelles (1e tour de plateau) 	243€ => 143€
+B fait 5 ! 	-> Rue de Paradis (1e tour de plateau) 	234€ => 234€
+
+TOUR 13
+A fait double 3 ! A paye 16€ a B	-> Rue de Paradis (1e tour de plateau) 	143€ => 127€
+A fait 7 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	127€ => 127€
+B fait double 2 ! B achete Bd Saint-Michel (180)	-> Bd Saint-Michel (1e tour de plateau) 	250€ => 70€
+B fait 9 ! B refuse d'acheter Place de la Bourse (260€)	-> Place de la Bourse (1e tour de plateau) 	70€ => 70€
+
+TOUR 14
+A fait 9 ! A va en prison !
+	-> En prison - Simple Visite (1e tour de plateau) 	127€ => 127€
+B fait 3 ! B va en prison !
+	-> En prison - Simple Visite (1e tour de plateau) 	70€ => 70€
+
+TOUR 15
+A fait 8 ! A paye 18€ a B	-> Bd Saint-Michel (1e tour de plateau) 	127€ => 109€
+B fait 9 ! B refuse d'acheter Place Pigalle (200€)	-> Place Pigalle (1e tour de plateau) 	88€ => 88€
+
+TOUR 16
+A fait 3 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	109€ => 109€
+B fait 9 ! B refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	88€ => 88€
+
+TOUR 17
+A fait double 6 ! 	-> Caisse de communaute (1e tour de plateau) 	109€ => 109€
+A fait 9 ! 	-> Caisse de communaute (1e tour de plateau) 	109€ => 309€
+B fait 9 ! B refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	88€ => 88€
+
+TOUR 18
+A fait 7 ! A achete Avenue de la Republique (120)	-> Avenue de la Republique (1e tour de plateau) 	309€ => 189€
+B fait 7 ! 	-> Impot sur le revenu (1e tour de plateau) 	88€ => 260€
+
+TOUR 19
+A fait double 6 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	189€ => 189€
+A fait double 4 ! A refuse d'acheter Rue Lafayette (280€)	-> Rue Lafayette (1e tour de plateau) 	189€ => 189€
+A fait 6 ! A refuse d'acheter Gare Saint-Lazare (200€)	-> Gare Saint-Lazare (1e tour de plateau) 	189€ => 189€
+B fait 11 ! B achete Gare de Lyon (200)	-> Gare de Lyon (1e tour de plateau) 	260€ => 60€
+
+TOUR 20
+A fait double 3 ! A achete Bd de Belleville (60)	-> Bd de Belleville (1e tour de plateau) 	189€ => 329€
+A fait 9 ! 	-> En prison - Simple Visite (1e tour de plateau) 	329€ => 329€
+B fait double 2 ! B refuse d'acheter Place Pigalle (200€)	-> Place Pigalle (1e tour de plateau) 	60€ => 60€
+B fait 7 ! B refuse d'acheter Faubourg Saint-Honore (260€)	-> Faubourg Saint-Honore (1e tour de plateau) 	60€ => 60€
+
+TOUR 21
+A fait 11 ! A achete Avenue Matignon (220)	-> Avenue Matignon (1e tour de plateau) 	329€ => 109€
+B fait 7 ! 	-> Caisse de communaute (1e tour de plateau) 	60€ => 60€
+
+TOUR 22
+A fait 7 ! A refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	109€ => 109€
+B fait 4 ! B refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	60€ => 60€
+
+TOUR 23
+A fait 7 ! A refuse d'acheter Gare Saint-Lazare (200€)	-> Gare Saint-Lazare (1e tour de plateau) 	109€ => 109€
+B fait 7 ! 	-> Impot sur le revenu (1e tour de plateau) 	60€ => 234€
+
+TOUR 24
+A fait 8 ! A achete Rue Lecourbe (60)	-> Rue Lecourbe (1e tour de plateau) 	109€ => 249€
+B fait 8 ! B paye 15€ a A	-> Compagnie d'Electricite (1e tour de plateau) 	234€ => 219€
+
+TOUR 25
+A fait 7 ! 	-> En prison - Simple Visite (1e tour de plateau) 	264€ => 264€
+B fait 11 ! B refuse d'acheter Bd Malesherbes (220€)	-> Bd Malesherbes (1e tour de plateau) 	219€ => 219€
+
+TOUR 26
+A fait double 1 ! 	-> Compagnie d'Electricite (1e tour de plateau) 	264€ => 264€
+A fait 8 ! 	-> Parc Gratuit (1e tour de plateau) 	264€ => 264€
+B fait 4 ! B refuse d'acheter Place de la Bourse (260€)	-> Place de la Bourse (1e tour de plateau) 	219€ => 219€
+
+TOUR 27
+A fait 11 ! A refuse d'acheter Avenue de Breteuil (300€)	-> Avenue de Breteuil (1e tour de plateau) 	264€ => 264€
+B fait 8 ! B refuse d'acheter Gare Saint-Lazare (200€)	-> Gare Saint-Lazare (1e tour de plateau) 	219€ => 219€
+
+TOUR 28
+A fait 7 ! 	-> Taxe de luxe (1e tour de plateau) 	264€ => 164€
+B fait double 1 ! B refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	219€ => 219€
+B fait double 3 ! B paye 6€ a A	-> Rue Lecourbe (1e tour de plateau) 	219€ => 413€
+B fait un 3e double ! B va en prison !
+
+TOUR 29
+A fait 6 ! 	-> Impot sur le revenu (1e tour de plateau) 	170€ => 333€
+B fait 6 ! 	-> Gare de Lyon (1e tour de plateau) 	413€ => 413€
+
+TOUR 30
+A fait 4 ! 	-> Rue de Courcelles (1e tour de plateau) 	333€ => 333€
+B fait double 2 ! B achete Place Pigalle (200)	-> Place Pigalle (1e tour de plateau) 	413€ => 213€
+B fait 9 ! B refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	213€ => 213€
+
+TOUR 31
+A fait 8 ! A refuse d'acheter Avenue Mozart (180€)	-> Avenue Mozart (1e tour de plateau) 	333€ => 333€
+B fait 5 ! 	-> Caisse de communaute (1e tour de plateau) 	213€ => 213€
+
+TOUR 32
+A fait 10 ! A refuse d'acheter Faubourg Saint-Honore (260€)	-> Faubourg Saint-Honore (1e tour de plateau) 	333€ => 333€
+B fait 5 ! 	-> Taxe de luxe (1e tour de plateau) 	213€ => 113€
+
+TOUR 33
+A fait double 5 ! 	-> Chance (1e tour de plateau) 	333€ => 333€
+A fait 11 ! 	-> Chance (1e tour de plateau) 	333€ => 533€
+B fait 10 ! B paye 10€ a A	-> Rue de Courcelles (1e tour de plateau) 	113€ => 303€
+
+TOUR 34
+A fait 8 ! A paye 20€ a B	-> Gare de Lyon (1e tour de plateau) 	543€ => 523€
+B fait 6 ! 	-> Rue de Paradis (1e tour de plateau) 	323€ => 323€
+
+TOUR 35
+A fait 4 ! A paye 0€ a B	-> Place Pigalle (1e tour de plateau) 	523€ => 523€
+B fait 5 ! 	-> Place Pigalle (1e tour de plateau) 	323€ => 323€
+
+TOUR 36
+A fait 4 ! A achete Bd Malesherbes (220)	-> Bd Malesherbes (1e tour de plateau) 	523€ => 303€
+B fait 8 ! B achete Place de la Bourse (260)	-> Place de la Bourse (1e tour de plateau) 	323€ => 63€
+
+TOUR 37
+A fait double 4 ! A achete Avenue de Breteuil (300)	-> Avenue de Breteuil (1e tour de plateau) 	303€ => 3€
+A fait 8 ! A refuse d'acheter Rue de la Paix (400€)	-> Rue de la Paix (1e tour de plateau) 	3€ => 3€
+B fait 9 ! 	-> Chance (1e tour de plateau) 	63€ => 63€
+
+TOUR 38
+A fait 7 ! A achete Rue de Vaugirard (100)	-> Rue de Vaugirard (1e tour de plateau) 	3€ => 103€
+B fait double 5 ! B paye 10€ a A	-> Rue de Vaugirard (1e tour de plateau) 	63€ => 253€
+B fait double 5 ! B achete Avenue Mozart (180)	-> Avenue Mozart (1e tour de plateau) 	253€ => 73€
+B fait 3 ! 	-> Place Pigalle (1e tour de plateau) 	73€ => 73€
+
+TOUR 39
+A fait double 5 ! A paye 18€ a B	-> Avenue Mozart (1e tour de plateau) 	113€ => 95€
+A fait 9 ! A refuse d'acheter Gare du Nord (200€)	-> Gare du Nord (1e tour de plateau) 	95€ => 95€
+B fait 9 ! B refuse d'acheter Compagnie de eaux (150€)	-> Compagnie de eaux (1e tour de plateau) 	91€ => 91€
+
+TOUR 40
+A fait 6 ! 	-> Avenue de Breteuil (1e tour de plateau) 	95€ => 95€
+B fait double 6 ! 	-> Case Depart (1e tour de plateau) 	91€ => 491€
+B fait 5 ! B achete Gare Montparnasse (200)	-> Gare Montparnasse (1e tour de plateau) 	491€ => 291€
+
+TOUR 41
+A fait 9 ! 	-> Case Depart (1e tour de plateau) 	95€ => 495€
+B fait 5 ! 	-> En prison - Simple Visite (1e tour de plateau) 	291€ => 291€
+
+TOUR 42
+A fait double 4 ! 	-> Rue de Courcelles (1e tour de plateau) 	495€ => 495€
+A fait 7 ! A paye 20€ a B	-> Gare de Lyon (1e tour de plateau) 	495€ => 475€
+B fait 6 ! 	-> Avenue Mozart (1e tour de plateau) 	311€ => 311€
+
+TOUR 43
+A fait 7 ! 	-> Chance (1e tour de plateau) 	475€ => 475€
+B fait 5 ! B paye 22€ a A	-> Avenue Matignon (1e tour de plateau) 	311€ => 289€
+
+TOUR 44
+A fait double 1 ! A achete Avenue Henri-Martin (240)	-> Avenue Henri-Martin (1e tour de plateau) 	497€ => 257€
+A fait double 1 ! A refuse d'acheter Faubourg Saint-Honore (260€)	-> Faubourg Saint-Honore (1e tour de plateau) 	257€ => 257€
+A fait 6 ! A refuse d'acheter Avenue Foch (300€)	-> Avenue Foch (1e tour de plateau) 	257€ => 257€
+B fait double 6 ! 	-> Caisse de communaute (1e tour de plateau) 	289€ => 289€
+B fait 9 ! 	-> Caisse de communaute (1e tour de plateau) 	289€ => 489€
+
+TOUR 45
+A fait 6 ! 	-> Taxe de luxe (1e tour de plateau) 	257€ => 157€
+B fait 10 ! B paye 15€ a A	-> Compagnie d'Electricite (1e tour de plateau) 	489€ => 474€
+
+TOUR 46
+A fait 8 ! 	-> Rue de Vaugirard (1e tour de plateau) 	172€ => 372€
+B fait 11 ! B paye 22€ a A	-> Bd Malesherbes (1e tour de plateau) 	474€ => 452€
+
+TOUR 47
+A fait 7 ! A refuse d'acheter Avenue de Neuilly (140€)	-> Avenue de Neuilly (1e tour de plateau) 	394€ => 394€
+B fait double 2 ! 	-> Place de la Bourse (1e tour de plateau) 	452€ => 452€
+B fait 7 ! B achete Bd des Capucines (320)	-> Bd des Capucines (1e tour de plateau) 	452€ => 132€
+
+TOUR 48
+A fait 5 ! A paye 18€ a B	-> Bd Saint-Michel (1e tour de plateau) 	394€ => 376€
+B fait 7 ! B paye 6€ a A	-> Bd de Belleville (1e tour de plateau) 	150€ => 344€
+
+TOUR 49
+A fait 8 ! A refuse d'acheter Faubourg Saint-Honore (260€)	-> Faubourg Saint-Honore (1e tour de plateau) 	382€ => 382€
+B fait 9 ! 	-> En prison - Simple Visite (1e tour de plateau) 	344€ => 344€
+
+TOUR 50
+A fait 9 ! A achete Gare Saint-Lazare (200)	-> Gare Saint-Lazare (1e tour de plateau) 	382€ => 182€
+B fait 5 ! 	-> Gare de Lyon (1e tour de plateau) 	344€ => 344€
+

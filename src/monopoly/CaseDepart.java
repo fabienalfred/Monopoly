@@ -1,19 +1,19 @@
 package monopoly;
 
-public class Depart extends Case{
+public class CaseDepart extends Case{
 
 	/***** ATTRIBUTES *****/
 	
-	private final int BONUS = 200;
+	private final int bonus = 200;
 	
 	
 	/***** CONSTRUCTORS *****/
 
-	public Depart(String name) {
+	public CaseDepart(String name) {
 		super(name);
 	}
 	
-	public Depart() {
+	public CaseDepart() {
 		super("DEPART");
 	}
 	
@@ -22,18 +22,18 @@ public class Depart extends Case{
 
 	@Override
 	public void passer(Joueur joueur){
-		joueur.crediter(BONUS);
+		joueur.crediter(bonus);
 	}
 	
 	@Override
 	public void arreter(Joueur joueur){
-		joueur.crediter(BONUS*2);
+		joueur.crediter(bonus*2);
 	}
 	
 	
 	/***** GETTERS SETTERS *****/
 	
 	public int getBonus(){
-		return this.BONUS;
+		return this.bonus;
 	}
 }

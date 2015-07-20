@@ -1,5 +1,5 @@
 pk,numero,type,nom,valeur,prix_achat,base_loyer,couleur
-1,0,Depart,Depart,200,0,0,
+1,0,CaseDepart,Case Depart,200,0,0,
 2,1,Rue,Bd de Belleville,0,60,6,violet
 3,2,Communaute,Caisse de communaute,0,0,0,
 4,3,Rue,Rue Lecourbe,0,60,6,violet
@@ -19,7 +19,7 @@ pk,numero,type,nom,valeur,prix_achat,base_loyer,couleur
 18,17,Communaute,Caisse de communaute,0,0,0,
 19,18,Rue,Bd Saint-Michel,0,180,18,orange
 20,19,Rue,Place Pigalle,0,200,0,orange
-21,20,Parc,Parc Gratuit,0,0,0,
+21,20,ParcGratuit,Parc Gratuit,0,0,0,
 22,21,Rue,Avenue Matignon,0,220,22,rouge
 23,22,Chance,Chance,0,0,0,
 24,23,Rue,Bd Malesherbes,0,220,22,rouge
@@ -32,9 +32,9 @@ pk,numero,type,nom,valeur,prix_achat,base_loyer,couleur
 31,35,Gare,Gare Saint-Lazare,0,200,20,
 32,36,Chance,Chance,0,0,0,
 33,37,Rue,Champs-Elysees,0,350,35,bleu
-34,38,TaxeLuxe,Taxe de luxe,100,0,0,
+34,38,TaxeDeLuxe,Taxe de luxe,100,0,0,
 35,39,Rue,Rue de la Paix,0,400,40,bleu
-36,30,Prison,Allez en prison,0,0,0,
+36,30,AllezEnPrison,Allez en prison,0,0,0,
 37,31,Rue,Avenue de Breteuil,0,300,30,vert
 38,32,Rue,Avenue Foch,0,300,30,vert
 39,33,Communaute,Caisse de communaute,0,0,0,

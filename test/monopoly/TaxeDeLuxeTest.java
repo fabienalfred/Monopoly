@@ -11,7 +11,7 @@ public class TaxeDeLuxeTest {
 		Joueur j = new Joueur();
 		int soldeInit = 2000;
 		j.setSolde(soldeInit);
-		TaxeLuxe txlx = new TaxeLuxe();
+		TaxeDeLuxe txlx = new TaxeDeLuxe();
 		txlx.arreter(j);
 		assertEquals(j.getSolde(), soldeInit-txlx.getMalus());
 	}

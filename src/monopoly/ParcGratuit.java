@@ -1,6 +1,6 @@
 package monopoly;
 
-public class Parc extends Case{
+public class ParcGratuit extends Case{
 
 	/***** ATTRIBUTES *****/
 
@@ -9,7 +9,7 @@ public class Parc extends Case{
 	
 	/***** CONSTRUCTORS *****/
 
-	public Parc(){
+	public ParcGratuit(){
 		super("Parc Gratuit");
 	}
 	

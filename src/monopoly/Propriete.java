@@ -4,9 +4,10 @@ public class Propriete extends Case {
 
 	/***** ATTRIBUTES *****/
 
-	private int prixAchat = 200;
-	private int loyer = 20;
+	private int prixAchat;
+	private int loyer;
 	private Joueur owner;
+	private String couleur;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -64,5 +65,13 @@ public class Propriete extends Case {
 	}
 	public void setOwner(Joueur owner) {
 		this.owner = owner;
+	}
+
+	public String getCouleur() {
+		return this.couleur;
+	}
+
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
 	}
 }
