@@ -19,16 +19,12 @@ public class Pion {
 	/***** METHODS 
 	 * @throws SoldeNegatifException *****/
 	
-	public void avancer(int resultat) throws SoldeNegatifException{
-		for(int i=0 ; i<resultat-1 ; i++){
+	public void avancer(int r) throws SoldeNegatifException {
+		for(int i=0;i<r-1;i++){
 			position = position.getNext();
-			if(position.getNumero()==0)
-				nbToursPlateau++;
 			position.passer(joueur);
 		}
 		position = position.getNext();
-		if(position.getNumero()==0)
-			nbToursPlateau++;
 		position.arreter(joueur);
 	}
 	

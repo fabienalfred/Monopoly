@@ -1,13 +1,13 @@
 package monopoly;
 
-public class AllezEnPrison extends Case {
+public class Prison extends Case {
 
 	/***** ATTRIBUTES *****/
 
 	/***** CONSTRUCTORS *****/
 
-	public AllezEnPrison(){
-		super(30, "Allez en Prison");
+	public Prison(){
+		super("Allez en Prison");
 	}
 	
 	

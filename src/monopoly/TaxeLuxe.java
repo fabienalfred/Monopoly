@@ -1,6 +1,6 @@
 package monopoly;
 
-public class TaxeDeLuxe extends Case {
+public class TaxeLuxe extends Case {
 
 	/***** ATTRIBUTES *****/
 
@@ -9,12 +9,12 @@ public class TaxeDeLuxe extends Case {
 	
 	/***** CONSTRUCTORS *****/
 
-	public TaxeDeLuxe(){
-		super(37, "Taxe de luxe");
+	public TaxeLuxe(){
+		super("Taxe de luxe");
 	}
 	
-	public TaxeDeLuxe(int num, String nom){
-		super(num, nom);
+	public TaxeLuxe(int num, String nom){
+		super(nom);
 	}
 	
 	

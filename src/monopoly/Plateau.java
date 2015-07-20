@@ -1,5 +1,10 @@
 package monopoly;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Plateau {
 
 	/***** ATTRIBUTES *****/
@@ -11,38 +16,70 @@ public class Plateau {
 
 	public Plateau() {
 		for(int i=0 ; i<cases.length ; i++){
-			initialiserCases();
+			try {
+				initialiserCases("monopoly.csv");
+			} catch (Exception e) {
+				e.printStackTrace();
+				initialiserCases();
+			} 
 			lierCases();
 		}
 	}
 	
 	
-	/***** METHODS *****/
+	/***** METHODS 
+	 * @throws IOException 
+	 * @throws ClassNotFoundException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException *****/
 
 	public void initialiserCases(){
 		for(int i=0 ; i<cases.length ; i++){
 			Case c = null;
 			switch(i){
 			case 0 :
-				c = new CaseDepart();
+				c = new Depart();
 				break;
 			case 4 :
 				c = new Impot();
 				break;
 			case 30 :
-				c = new AllezEnPrison();
+				c = new Prison();
 				break;
 			case 37 :
-				c = new TaxeDeLuxe();
+				c = new TaxeLuxe();
 				break;
 			case 2 : case 7 : case 10 : case 17 : case 20 : case 22 : case 33 : case 36 :
-				c = new Case(i, "Case "+i);
+				c = new Case("Case "+i);
 				break;
 			default :
-				c = new Propriete(i, "Propriete "+i);
+				c = new Propriete("Propriete "+i);
 				break;
 			}
 			this.cases[i] = c;
+		}
+	}
+	
+	public void initialiserCases(String filename) throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException{
+		String filein = filename;
+		String s = null;
+		try (FileReader filereader = new FileReader(filein);
+				BufferedReader in = new BufferedReader(filereader)){
+			in.readLine();
+			Case c = null;
+			while((s = in.readLine()) != null){
+				String[] champs = s.split(",");
+				c = (Case) Class.forName("monopoly."+champs[2]).newInstance();
+				c.setNom(champs[3]);
+				if(c instanceof Propriete){
+					((Propriete) c).setPrixAchat(Integer.parseInt(champs[5]));
+					((Propriete) c).setLoyer(Integer.parseInt(champs[6]));
+				}
+				if(c instanceof Impot || c instanceof TaxeLuxe || c instanceof Depart){
+					
+				}
+				cases[Integer.parseInt(champs[1])] = c;
+			}
 		}
 	}
 	

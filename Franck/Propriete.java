@@ -5,14 +5,17 @@ public class Propriete extends Case {
 	private int prixAchat = 200;
 	private int loyer=20;
 
+	public Propriete() {
+		// TODO Auto-generated constructor stub
+	}
 	public Propriete(String name) {
 		super(name);
 	}
 
 	@Override
-	public void arreter(Joueur joueur) {
+	public void arreter(Joueur joueur) throws SoldeNegatifException {
 		if(proprietaire==null){
-			System.out.println(">>> proprosition d'achat pour "+joueur.getName()+" sur "+this.getName());
+			System.out.println(">>> proposition d'achat pour "+joueur.getName()+" sur "+this.getName());
 			if(joueur.veutAcheter(this)){
 				proprietaire = joueur;
 				joueur.add(this);

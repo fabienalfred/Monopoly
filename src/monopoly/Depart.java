@@ -1,6 +1,6 @@
 package monopoly;
 
-public class CaseDepart extends Case{
+public class Depart extends Case{
 
 	/***** ATTRIBUTES *****/
 	
@@ -9,12 +9,12 @@ public class CaseDepart extends Case{
 	
 	/***** CONSTRUCTORS *****/
 
-	public  CaseDepart() {
-		super(0, "Case depart");
+	public Depart(String name) {
+		super(name);
 	}
 	
-	public CaseDepart(int num, String nom) {
-		super(num, nom);
+	public Depart() {
+		super("DEPART");
 	}
 	
 	

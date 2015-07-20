@@ -28,7 +28,7 @@ public class JoueurTest {
 	@Test
 	public void testAddPropriete(){
 		Joueur j = new Joueur();
-		Propriete propriete = new Propriete(0, "Propriete");
+		Propriete propriete = new Propriete("Propriete");
 		j.addPropriete(propriete);
 		assertTrue(j.getProprietes().contains(propriete));
 	}
@@ -37,7 +37,7 @@ public class JoueurTest {
 	public void testRemettreEnJeu(){
 		Joueur j = new Joueur();
 		if(Math.random()>0.5)
-			j.addPropriete(new Propriete(0, "Propriete"));
+			j.addPropriete(new Propriete("Propriete"));
 		j.remettreEnJeu();
 		assertTrue(j.getProprietes().isEmpty());
 	}

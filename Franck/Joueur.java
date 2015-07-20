@@ -6,10 +6,10 @@ import java.util.List;
 public class Joueur {
 	private String name;
 	private Pion pion;
-	private int solde=2000;
+	private int solde=20;
 	private List<Propriete> proprietes = new ArrayList<Propriete>();
 	
-	public void jouer(Gobelet gobelet){
+	public void jouer(Gobelet gobelet) throws SoldeNegatifException{
 		int ancienSolde = solde;
 		int r = gobelet.lancer();
 		pion.avancer(r);
@@ -48,8 +48,11 @@ public class Joueur {
 		this.solde += somme;
 	}
 	
-	public void debiter(int somme){
+	public void debiter(int somme) throws SoldeNegatifException{
 		this.solde -= somme;
+		if(solde<0){
+			throw new SoldeNegatifException();
+		}
 	}
 	
 	public void add(Propriete propriete){
@@ -58,7 +61,7 @@ public class Joueur {
 	
 	public void remettreEnJeuxLesProprietes(){
 		for(Propriete p : proprietes)
-			;
+			p.setProprietaire(null);;
 		proprietes.clear();
 	}
 

@@ -1,7 +1,7 @@
 package monopoly;
 
 public class Case {
-	private String nom;
+	private String name;
 	private Case next;
 	
 	public Case() {
@@ -9,15 +9,15 @@ public class Case {
 	}
 	
 	public Case(String name) {
-		this.nom = name;
+		this.name = name;
 	}
 
-	public String getNom() {
-		return nom;
+	public String getName() {
+		return name;
 	}
 
-	public void setNom(String name) {
-		this.nom = name;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public Case getNext() {

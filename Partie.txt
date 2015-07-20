@@ -1,74 +1,54 @@
-<<< Le joueur F a choisi le pion VOITURE >>>
-<<< Le joueur S a choisi le pion CHAT >>>
+<<< Le joueur A a choisi le pion VOITURE >>>
+<<< Le joueur B a choisi le pion CHAT >>>
 
 TOUR 1
-F fait 8 ! F refuse d'acheter Propriete 8 (80€)	-> Propriete 8 (1e tour de plateau) 	20€ => 20€
-S fait 4 ! 	-> Impot (1e tour de plateau) 	20€ => 18€
+A fait 11 ! A refuse d'acheter Bd de la Villette (140€)	-> Bd de la Villette (1e tour de plateau) 	20€ => 20€
+B fait 7 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
 
 TOUR 2
-F fait 8 ! F refuse d'acheter Propriete 16 (160€)	-> Propriete 16 (1e tour de plateau) 	20€ => 20€
-S fait 7 ! S refuse d'acheter Propriete 11 (110€)	-> Propriete 11 (1e tour de plateau) 	18€ => 18€
+A fait 8 ! A refuse d'acheter Place Pigalle (200€)	-> Place Pigalle (1e tour de plateau) 	20€ => 20€
+B fait 4 ! B refuse d'acheter Bd de la Villette (140€)	-> Bd de la Villette (1e tour de plateau) 	20€ => 20€
 
 TOUR 3
-F fait 3 ! F refuse d'acheter Propriete 19 (190€)	-> Propriete 19 (1e tour de plateau) 	20€ => 20€
-S fait double 1 ! S refuse d'acheter Propriete 13 (130€)	-> Propriete 13 (1e tour de plateau) 	18€ => 18€
-S fait 6 ! S refuse d'acheter Propriete 19 (190€)	-> Propriete 19 (1e tour de plateau) 	18€ => 18€
+A fait 3 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
+B fait 3 ! B refuse d'acheter Rue de Paradis (160€)	-> Rue de Paradis (1e tour de plateau) 	20€ => 20€
 
 TOUR 4
-F fait 6 ! F refuse d'acheter Propriete 25 (250€)	-> Propriete 25 (1e tour de plateau) 	20€ => 20€
-S fait double 2 ! S refuse d'acheter Propriete 23 (230€)	-> Propriete 23 (1e tour de plateau) 	18€ => 18€
-S fait 6 ! S refuse d'acheter Propriete 29 (290€)	-> Propriete 29 (1e tour de plateau) 	18€ => 18€
+A fait 8 ! A va en prison !
+	-> En prison - Simple Visite (1e tour de plateau) 	20€ => 20€
+B fait 9 ! B refuse d'acheter Bd Malesherbes (220€)	-> Bd Malesherbes (1e tour de plateau) 	20€ => 20€
 
 TOUR 5
-F fait 11 ! 	-> Case 36 (1e tour de plateau) 	20€ => 20€
-S fait double 3 ! S refuse d'acheter Propriete 35 (350€)	-> Propriete 35 (1e tour de plateau) 	18€ => 18€
-S fait double 2 ! S refuse d'acheter Propriete 39 (390€)	-> Propriete 39 (1e tour de plateau) 	18€ => 18€
-S fait 3 ! 	-> Case 2 (2e tour de plateau) 	18€ => 218€
+A fait 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	20€ => 20€
+B fait 6 ! B refuse d'acheter Rue Lafayette (280€)	-> Rue Lafayette (1e tour de plateau) 	20€ => 20€
 
 TOUR 6
-F fait 8 ! 	-> Impot (2e tour de plateau) 	20€ => 198€
-S fait 4 ! S achete Propriete 6 (60)	-> Propriete 6 (2e tour de plateau) 	218€ => 158€
+A fait 8 ! A refuse d'acheter Bd Malesherbes (220€)	-> Bd Malesherbes (1e tour de plateau) 	20€ => 20€
+B fait 7 ! 	-> Chance (1e tour de plateau) 	20€ => 20€
 
 TOUR 7
-F fait 6 ! 	-> Case 10 (2e tour de plateau) 	198€ => 198€
-S fait 9 ! S achete Propriete 15 (150)	-> Propriete 15 (2e tour de plateau) 	158€ => 8€
+A fait 9 ! A refuse d'acheter Avenue Foch (300€)	-> Avenue Foch (1e tour de plateau) 	20€ => 20€
+B fait 9 ! B achete Gare Montparnasse (200)	-> Gare Montparnasse (1e tour de plateau) 	20€ => 20€
 
 TOUR 8
-F fait double 6 ! 	-> Case 22 (2e tour de plateau) 	198€ => 198€
-F fait 8 ! F va en prison !
-	-> Case 10 (2e tour de plateau) 	198€ => 198€
-S fait 7 ! 	-> Case 22 (2e tour de plateau) 	8€ => 8€
+A fait 5 ! A refuse d'acheter Champs-Elysees (350€)	-> Champs-Elysees (1e tour de plateau) 	20€ => 20€
+B fait 9 ! B refuse d'acheter Rue de Paradis (160€)	-> Rue de Paradis (1e tour de plateau) 	20€ => 20€
 
 TOUR 9
-F fait 8 ! F achete Propriete 18 (180)	-> Propriete 18 (2e tour de plateau) 	198€ => 18€
-S fait 11 ! 	-> Case 33 (2e tour de plateau) 	8€ => 8€
+A fait 8 ! A paye 20€ a B	-> Gare Montparnasse (1e tour de plateau) 	20€ => 200€
+B fait 10 ! B refuse d'acheter Avenue Henri-Martin (240€)	-> Avenue Henri-Martin (1e tour de plateau) 	40€ => 40€
 
 TOUR 10
-F fait 5 ! F refuse d'acheter Propriete 23 (230€)	-> Propriete 23 (2e tour de plateau) 	18€ => 18€
-S fait double 4 ! S refuse d'acheter Propriete 1 (10€)	-> Propriete 1 (3e tour de plateau) 	8€ => 208€
-S fait 5 ! 	-> Propriete 6 (3e tour de plateau) 	208€ => 208€
+A fait double 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	200€ => 200€
+A fait 6 ! A refuse d'acheter Avenue Matignon (220€)	-> Avenue Matignon (1e tour de plateau) 	200€ => 200€
+B fait 5 ! B refuse d'acheter Rue Lafayette (280€)	-> Rue Lafayette (1e tour de plateau) 	40€ => 40€
 
 TOUR 11
-F fait 9 ! F refuse d'acheter Propriete 32 (320€)	-> Propriete 32 (2e tour de plateau) 	18€ => 18€
-S fait 5 ! S achete Propriete 11 (110)	-> Propriete 11 (3e tour de plateau) 	208€ => 98€
+A fait 9 ! A va en prison !
+	-> En prison - Simple Visite (1e tour de plateau) 	200€ => 200€
+B fait 5 ! B refuse d'acheter Bd des Capucines (320€)	-> Bd des Capucines (1e tour de plateau) 	40€ => 40€
 
 TOUR 12
-F fait 11 ! F achete Propriete 3 (30)	-> Propriete 3 (3e tour de plateau) 	18€ => 188€
-S fait 7 ! S paye 90€ a F	-> Propriete 18 (3e tour de plateau) 	98€ => 8€
-
-TOUR 13
-F fait 8 ! F paye 55€ a S	-> Propriete 11 (3e tour de plateau) 	278€ => 223€
-S fait 8 ! S refuse d'acheter Propriete 26 (260€)	-> Propriete 26 (3e tour de plateau) 	63€ => 63€
-
-TOUR 14
-F fait 3 ! F achete Propriete 14 (140)	-> Propriete 14 (3e tour de plateau) 	223€ => 83€
-S fait 3 ! S refuse d'acheter Propriete 29 (290€)	-> Propriete 29 (3e tour de plateau) 	63€ => 63€
-
-TOUR 15
-F fait 11 ! F refuse d'acheter Propriete 25 (250€)	-> Propriete 25 (3e tour de plateau) 	83€ => 83€
-S fait 10 ! S refuse d'acheter Propriete 39 (390€)	-> Propriete 39 (3e tour de plateau) 	63€ => 63€
-
-TOUR 16
-F fait double 5 ! F refuse d'acheter Propriete 35 (350€)	-> Propriete 35 (3e tour de plateau) 	83€ => 83€
-F fait double 1 ! F a fait FAILLITE !
-S REMPORTE LA PARTIE !!!
+A fait 5 ! A refuse d'acheter Gare de Lyon (200€)	-> Gare de Lyon (1e tour de plateau) 	200€ => 200€
+B fait double 2 ! B a fait FAILLITE !
+A REMPORTE LA PARTIE !!!

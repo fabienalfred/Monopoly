@@ -19,13 +19,13 @@ public class PlateauTest {
 		assertSame(caseDepart, caseCourante);
 	}
 	
-	@Test
-	public void testInitialiserCases() {
-		Plateau p = new Plateau();
-		for(int i=0 ; i<p.getCases().length ; i++){
-			assertEquals(i, p.getCases()[i].getNumero());
-		}
-	}
+//	@Test
+//	public void testInitialiserCases() {
+//		Plateau p = new Plateau();
+//		for(int i=0 ; i<p.getCases().length ; i++){
+//			assertEquals(i, p.getCases()[i].getNumero());
+//		}
+//	}
 	
 	@Test
 	public void testLierCases(){

@@ -8,7 +8,7 @@ public class Impot extends Case {
 	}
 	
 	public Impot() {
-		super("Impots");
+		super("Impôts");
 	}
 	
 	@Override

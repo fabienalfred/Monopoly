@@ -11,7 +11,7 @@ public class ParcGratuitTest {
 		Joueur joueur = new Joueur();
 		int soldeInitJoueur = 2000;
 		joueur.setSolde(soldeInitJoueur);
-		ParcGratuit pg = new ParcGratuit();
+		Parc pg = new Parc();
 		int soldeInitPG = 1000;
 		pg.setCagnotte(soldeInitPG);
 		pg.arreter(joueur);

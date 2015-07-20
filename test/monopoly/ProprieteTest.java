@@ -13,8 +13,8 @@ public class ProprieteTest {
 		int soldeInit = 2000;
 		j1.setSolde(soldeInit);
 		j2.setSolde(soldeInit);
-		Propriete p1 = new Propriete(0, "Propriete1");
-		Propriete p2 = new Propriete(1, "Propriete2");
+		Propriete p1 = new Propriete("Propriete1");
+		Propriete p2 = new Propriete("Propriete2");
 		int prix = 1000;
 		int loyer = 100;
 		p1.setPrixAchat(prix);

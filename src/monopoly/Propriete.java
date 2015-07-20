@@ -4,17 +4,18 @@ public class Propriete extends Case {
 
 	/***** ATTRIBUTES *****/
 
-	private int prixAchat;
-	private int loyer;
+	private int prixAchat = 200;
+	private int loyer = 20;
 	private Joueur owner;
 	
 	
 	/***** CONSTRUCTORS *****/
 
-	public Propriete(int num, String nom){
-		super(num, nom);
-		this.loyer = num*5;
-		this.prixAchat = num*10;
+	public Propriete() {
+	}
+	
+	public Propriete(String nom){
+		super(nom);
 	}
 	
 	

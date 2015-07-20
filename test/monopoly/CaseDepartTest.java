@@ -11,7 +11,7 @@ public class CaseDepartTest {
 		Joueur j = new Joueur();
 		int soldeInit = 2000;
 		j.setSolde(soldeInit);
-		CaseDepart c = new CaseDepart();
+		Depart c = new Depart();
 		c.passer(j);
 		assertEquals(j.getSolde(), soldeInit+c.getBonus());
 	}
@@ -21,7 +21,7 @@ public class CaseDepartTest {
 		Joueur j = new Joueur();
 		int soldeInit = 2000;
 		j.setSolde(soldeInit);
-		CaseDepart c = new CaseDepart();
+		Depart c = new Depart();
 		c.arreter(j);
 		assertEquals(j.getSolde(), soldeInit+c.getBonus()*2);
 	}
