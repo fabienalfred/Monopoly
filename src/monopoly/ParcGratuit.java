@@ -18,7 +18,7 @@ public class ParcGratuit extends Case{
 
 	@Override
 	public void arreter(Joueur joueur) {
-		System.out.println(joueur.getNom()+" remporte "+cagnotte+"€ !");
+		System.out.print(joueur.getNom()+" remporte "+cagnotte+"€ !");
 		joueur.crediter(cagnotte);
 		this.setCagnotte(0);
 	}

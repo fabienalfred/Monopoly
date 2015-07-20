@@ -23,11 +23,13 @@ public class CaseDepart extends Case{
 	@Override
 	public void passer(Joueur joueur){
 		joueur.crediter(bonus);
+		joueur.getPion().upNbToursPlateau();
 	}
 	
 	@Override
 	public void arreter(Joueur joueur){
 		joueur.crediter(bonus*2);
+		joueur.getPion().upNbToursPlateau();
 	}
 	
 	

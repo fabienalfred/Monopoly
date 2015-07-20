@@ -11,6 +11,7 @@ public class MainMonopoly {
 
 		List<Joueur> joueurs = new ArrayList<>();
 		int nbJoueurs = Integer.parseInt(JOptionPane.showInputDialog(null,"Combien de joueurs ?",""));
+		
 		for(int i =0 ; i<nbJoueurs ; i++){
 			String nomJoueur = JOptionPane.showInputDialog(null,"Nom du joueur "+(i+1),"");
 			Joueur j = new Joueur(nomJoueur);

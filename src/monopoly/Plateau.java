@@ -55,7 +55,6 @@ public class Plateau {
 					((Rue) c).setCouleur(champs[7]);
 				cases[Integer.parseInt(champs[1])] = c;
 			}
-			((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
 			((Impot) this.cases[4]).setParc((ParcGratuit) this.cases[20]);
 			((TaxeDeLuxe) this.cases[38]).setParc((ParcGratuit) this.cases[20]);
 		}
@@ -91,7 +90,6 @@ public class Plateau {
 			}
 			this.cases[i] = c;
 		}
-		((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
 		((Impot) this.cases[4]).setParc(this.cases[20]);
 		((TaxeDeLuxe) this.cases[38]).setParc(this.cases[20]);
 	}

@@ -9,10 +9,11 @@ public class Joueur {
 	
 	private String nom;
 	private Pion pion;
-	private int solde=20;
+	private int solde=50;
 	private List<Propriete> proprietes = new ArrayList<>();
 	private int cptDouble=0;
 	private boolean enPrison = false;
+	private int toursPrison = 0;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -29,25 +30,40 @@ public class Joueur {
 	 * @throws SoldeNegatifException *****/
 	
 	public void jouer(Gobelet gobelet) throws SoldeNegatifException{
+		if(enPrison){
+			toursPrison++;
+			System.out.print(this.getNom()+" est en prison pour son "+toursPrison+"e tour. ");
+			if(toursPrison==3){
+				this.enPrison = false;
+				this.toursPrison = 0;
+			}
+		}
 		int ancienSolde = this.solde;
 		int resultat = gobelet.lancer();
 		System.out.print(this.nom + " fait ");
 		if(gobelet.isDouble()){
 			this.cptDouble++;
-			if(cptDouble==3){
+			if(!enPrison && cptDouble==3){
 				System.out.println("un 3e double ! "+this.getNom()+" va en prison !");
 				this.getPion().goToPrison();
+				this.enPrison=true;
 				this.setCptDouble(0);
 				return;
 			}
+			this.enPrison = false;
+			this.toursPrison = 0;
 			System.out.print("double "+gobelet.getDes()[0].getValue()+" ! ");
 		}
 		else
 			System.out.print(resultat+" ! ");
-		pion.avancer(resultat);
-		System.out.println("\t-> " + pion.getPosition().getNom()
+		if(!enPrison){
+			pion.avancer(resultat);
+			System.out.println("\t-> " + pion.getPosition().getNom()
 							+ " (" + pion.getNbToursPlateau() + "e tour de plateau) "
 							+ "\t"+ancienSolde + "€ => " + this.solde + "€");
+		}
+		else
+			System.out.println("et reste en prison !");
 		if(gobelet.isDouble())
 			this.jouer(gobelet);
 		else

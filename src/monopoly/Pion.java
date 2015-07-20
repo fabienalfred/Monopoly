@@ -8,7 +8,6 @@ public class Pion {
 	private TypePion type;
 	private Case position;
 	private int nbToursPlateau=1 ;
-	private Case prison;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -30,8 +29,9 @@ public class Pion {
 	}
 
 	public void goToPrison() {
-		this.setPosition(this.prison);
-		
+		while(!(this.position instanceof Visite)){
+			this.position = this.position.getNext();
+		}
 	}
 	
 	
@@ -58,16 +58,15 @@ public class Pion {
 		this.position = position;
 	}
 	
+	public void upNbToursPlateau(){
+		this.nbToursPlateau ++;
+	}
 	public int getNbToursPlateau() {
 		return nbToursPlateau;
 	}
 	
 	public String getName(){
 		return type.toString();
-	}
-
-	public void setPrison(Case prison) {
-		this.prison = prison;
 	}
 	
 }
