@@ -7,7 +7,6 @@ public class Propriete extends Case {
 	private int prixAchat;
 	private int loyer;
 	private Joueur owner;
-	private String couleur;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -67,11 +66,4 @@ public class Propriete extends Case {
 		this.owner = owner;
 	}
 
-	public String getCouleur() {
-		return this.couleur;
-	}
-
-	public void setCouleur(String couleur) {
-		this.couleur = couleur;
-	}
 }

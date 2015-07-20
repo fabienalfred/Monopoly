@@ -13,8 +13,7 @@ public class AllezEnPrisonTest {
 		j.setPion(pion);
 		pion.setJoueur(j);
 		Plateau plateau = new Plateau();
-		j.setPlateau(plateau);
 		plateau.getCases()[30].arreter(j);
-		assertEquals(j.getPion().getPosition(), j.getPlateau().getCases()[10]);
+		assertEquals(j.getPion().getPosition(), ((AllezEnPrison)plateau.getCases()[30]).getPrison());
 	}
 }

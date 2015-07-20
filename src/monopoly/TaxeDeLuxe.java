@@ -5,6 +5,7 @@ public class TaxeDeLuxe extends Case {
 	/***** ATTRIBUTES *****/
 
 	private final int taxe = 100;
+	private Case parc;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -24,6 +25,7 @@ public class TaxeDeLuxe extends Case {
 	@Override
 	public void arreter(Joueur joueur) throws SoldeNegatifException{
 		joueur.debiter(taxe);
+		((ParcGratuit) this.parc).addToCagnotte(taxe);
 	}
 	
 	
@@ -31,5 +33,9 @@ public class TaxeDeLuxe extends Case {
 	
 	public int getMalus(){
 		return this.taxe;
+	}
+	
+	public void setParc(Case parc){
+		this.parc = parc;
 	}
 }

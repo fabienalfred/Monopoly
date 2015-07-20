@@ -23,12 +23,12 @@ public class ProprieteTest {
 		p.setOwner(j1);
 		try {
 			p.arreter(j2);
+			assertEquals(j2.getSolde(), soldeInit-p.getLoyer());
+			assertEquals(p.getOwner().getSolde(), soldeInit+p.getLoyer());
 		} catch (SoldeNegatifException e) {
 			System.out.println("Solde negatif");
 			e.printStackTrace();
 		}
-		assertEquals(j2.getSolde(), soldeInit-p.getLoyer());
-		assertEquals(p.getOwner().getSolde(), soldeInit+p.getLoyer());
 		
 	}
 }

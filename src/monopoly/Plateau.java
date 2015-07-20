@@ -51,9 +51,13 @@ public class Plateau {
 					((Propriete) c).setPrixAchat(Integer.parseInt(champs[5]));
 					((Propriete) c).setLoyer(Integer.parseInt(champs[6]));
 				}
+				if(c instanceof Rue)
+					((Rue) c).setCouleur(champs[7]);
 				cases[Integer.parseInt(champs[1])] = c;
 			}
 			((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
+			((Impot) this.cases[4]).setParc((ParcGratuit) this.cases[20]);
+			((TaxeDeLuxe) this.cases[38]).setParc((ParcGratuit) this.cases[20]);
 		}
 	}
 	
@@ -73,6 +77,9 @@ public class Plateau {
 			case 37 :
 				c = new TaxeDeLuxe();
 				break;
+			case 38 :
+				c = new TaxeDeLuxe();
+				break;
 			case 2:case 7:case 10:case 17:case 20:case 22:case 33:case 36:
 				c = new Case("Case "+i);
 				break;
@@ -85,6 +92,8 @@ public class Plateau {
 			this.cases[i] = c;
 		}
 		((AllezEnPrison) this.cases[30]).setPrison(this.cases[10]);
+		((Impot) this.cases[4]).setParc(this.cases[20]);
+		((TaxeDeLuxe) this.cases[38]).setParc(this.cases[20]);
 	}
 	
 	public void lierCases(){

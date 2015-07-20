@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TaxeDeLuxeTest {
+public class ImpotTest {
 
 	@Test
 	public void testArreter() {

@@ -7,12 +7,12 @@ public class Joueur {
 	
 	/***** ATTRIBUTES *****/
 	
-	private Plateau plateau;
 	private String nom;
 	private Pion pion;
 	private int solde=20;
 	private List<Propriete> proprietes = new ArrayList<>();
 	private int cptDouble=0;
+	private boolean enPrison = false;
 	
 	
 	/***** CONSTRUCTORS *****/
@@ -36,7 +36,7 @@ public class Joueur {
 			this.cptDouble++;
 			if(cptDouble==3){
 				System.out.println("un 3e double ! "+this.getNom()+" va en prison !");
-				this.getPion().setPosition(plateau.getCases()[9]);
+				this.getPion().goToPrison();
 				this.setCptDouble(0);
 				return;
 			}
@@ -84,14 +84,6 @@ public class Joueur {
 	
 	/***** GETTERS SETTERS *****/
 
-	public Plateau getPlateau() {
-		return this.plateau;
-	}
-	
-	public void setPlateau(Plateau plateau){
-		this.plateau = plateau;
-	}
-	
 	public String getNom() {
 		return this.nom;
 	}
@@ -126,6 +118,14 @@ public class Joueur {
 
 	public void setCptDouble(int cptDouble) {
 		this.cptDouble = cptDouble;
+	}
+
+	public boolean isEnPrison() {
+		return this.enPrison;
+	}
+
+	public void setEnPrison(boolean enPrison) {
+		this.enPrison = enPrison;
 	}
 	
 }
